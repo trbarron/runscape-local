@@ -1,6 +1,6 @@
 # Character portraits contract
 
-Status: observed baseline at source commit `7b446a5`, 2026-10-27. This is a scoped architecture contract, not a lossless reimplementation specification.
+Source behavior and known limits.
 
 ## Scope
 

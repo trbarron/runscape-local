@@ -1,20 +1,6 @@
 # Runtime continuity and productive execution
 
-Status: Implemented; offline checks passed; local service rollout recorded in the handoff.
-Date: 2026-10-27. Baseline: `7b446a5` plus the session working tree.
-Authorization: user approved durable supervision, honest execution outcomes, capacity-aware
-crafting batches and personal production before unnecessary handoffs: “Lets implement them now.”
-This implementation record does not claim an independent EGM review or human spec approval.
-
-## Evidence and responsibilities
-
-The [post-Smithing review](../../agents/reviews/2026-10-27-post-smithing.md) found the
-controller absent while its game clients remained connected. It also found productive
-20-minute steps labelled stale, short withdrawals followed by oversized crafting targets,
-and a one-bar trade dependency despite an available personal smelting chain.
-
-Operations owns process recovery. Execution owns honest outcomes and bounded batches.
-Mission feasibility proposes supply chains; characters retain their goals and choice of work.
+Source contract; deployment and instance objectives are recorded locally.
 
 ## Process contract
 
@@ -103,27 +89,4 @@ For smelting with observed outcomes, summaries use recipe-confirmed input consum
 instead of net inventory decrease, which understates use after automatic bank resupply.
 Steel's raw-iron-plus-coal recipe does not have the iron-bar impurity roll. Tests cover
 message evidence, repeated frames, retry limits, actual completion, missing ore and real
-errors; a separate local-server fixture verified 10 ore consumed, 3 bars, 7 impurity
-losses and 37 displayed Smithing XP, without modifying party characters.
-
-## Verification and rollout
-
-Offline checks cover yield versus completion, retained batch goals and ingredient ratios,
-partial output versus actual completion, failed personal-chain rollback, heartbeat expiry,
-fresh-save requirements and launchd configuration. An isolated process fixture kills a
-controller and verifies replacement, then kills the supervisor and verifies its orphaned
-child is stopped before replacement. It uses a temporary directory and no game accounts.
-
-For the initial rollout, back up state/saves, identify exclusively party-owned legacy
-browsers, verify no gateway controllers remain, close those browsers and verify all fresh
-saves before installing the LaunchAgent. Verify the plist, launchd parentage, fresh
-heartbeats, all four ready characters and the local dashboard. Do not inject completion
-claims or replace the party's mission. The handoff distinguishes offline checks, loaded
-code and observed live behavior.
-
-No public snapshot schema change is required: new outcomes stay in existing event/summary
-strings, and optional withdrawal details remain event metadata. The website consumes the
-published summaries; controller heartbeat/private browser state is not published.
-
-Rollback: unload with `bun agents/service.ts stop`, wait for stopped state and fresh saves,
-then restore source or use the interactive supervisor. Never overlap controllers.
+errors.

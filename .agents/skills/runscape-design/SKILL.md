@@ -7,10 +7,10 @@ description: Load Runscape architecture contracts and use the pinned Elephant-Go
 
 Repository root is three parents above this skill directory. Resolve it before using the paths below.
 Read `AGENT.md`, `docs/designs/SITEMAP.md`, the relevant accepted/observed contract, and
-`agents/HANDOFF.md`. A handoff is dated operational evidence, not the specification.
+the local `agents/HANDOFF.md` when operating an existing instance. A handoff is dated operational evidence, not the specification.
 
-The complete instruction/persona/standards bundle is pinned at `third_party/egm`; provenance and
-hashes are in `UPSTREAM.json`. This repo-local binding does not install a global plugin. Use that
+The optional instruction/persona/standards bundle is pinned at `third_party/egm`.
+Install the revision documented in `docs/designs/WORKFLOW.md` if absent. This repo-local binding does not install a global plugin. Use that
 canonical directory as the plugin root when upstream instructions refer to a plugin root or
 `${CLAUDE_PLUGIN_ROOT}`; read its host guide for the available harness. Never guess cache paths.
 

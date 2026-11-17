@@ -1,6 +1,6 @@
 # World resource index contract
 
-Status: observed baseline at source commit `7b446a5`, 2026-10-27. This is a scoped architecture contract, not a lossless reimplementation specification.
+Source behavior and known limits.
 
 ## Scope
 
@@ -21,8 +21,3 @@ Building replaces the generated index. Importing initializes pathfinding and loa
 ## Verification
 
 After resource changes rebuild using the documented command and inspect affected types and coordinates. Validate both resource presence and executor support: an indexed resource alone does not establish an executable chain.
-
-
-## Current change
-
-The 2026-10-27 working tree includes the ferry-backed Musa Point fishing spot described in [the swordfish spec](../../docs/designs/swordfish-fishing.md). The header commit identifies the original observed baseline; it has been loaded since the 18:54 EDT reload recorded in the handoff; the live route is unverified.

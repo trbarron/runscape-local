@@ -1,6 +1,6 @@
 # Repository contract
 
-Status: observed baseline at source commit `7b446a5`, 2026-10-27. This is a scoped architecture contract, not a lossless reimplementation specification.
+Source architecture contract; deployment evidence is local.
 
 ## Scope
 
@@ -20,4 +20,4 @@ Starting the controller connects accounts and changes the game. Design review it
 
 ## Verification
 
-Read agents/LAYERS.md and agents/HANDOFF.md. Check affected source and use the package checks documented in agents/README.md for implementation changes.
+Read agents/LAYERS.md and the ignored local agents/HANDOFF.md when operating an instance. Check affected source and use the package checks documented in agents/README.md for implementation changes.

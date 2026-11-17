@@ -1,12 +1,12 @@
-# Existing system baseline
+# System architecture
 
-Status: observed architecture at source commit `7b446a5` plus the 2026-10-27 working tree. This backs out design intent from implementation; it is not a complete specification for rebuilding the game or controller.
+Source architecture and known limits. Runtime health and active objectives are instance-specific.
 
 ## Responsibilities and interfaces
 
 The game server owns authoritative characters, inventory, equipment, skills and achievements. SDK observations and successful actions establish game facts. Legacy/freeform milestones can close through two council claims; this separate evidence class does not establish game-verified completion. The controller uses one decision/execution loop per character. The council chooses shared objectives and records commitments. Deterministic preparation and executor code translate supported actions into SDK calls. The dashboard and website present observations rather than controlling completion.
 
-[Layer responsibilities](../../agents/LAYERS.md) remain the detailed ownership reference. [The handoff](../../agents/HANDOFF.md) records deployed state; design documents alone do not establish what a running process loaded. [Mission coordination](mission-coordination.md) documents the planning boundary.
+[Layer responsibilities](../../agents/LAYERS.md) remain the detailed ownership reference. The ignored local `agents/HANDOFF.md` records deployed state; design documents alone do not establish what a running process loaded. [Mission coordination](mission-coordination.md) documents the planning boundary.
 
 ## Persistence and publication
 
@@ -24,12 +24,14 @@ The local dashboard defaults to port 7790 and refreshes its snapshot every 15 se
 
 ## Capability boundaries and known gaps
 
-Static resource coverage, map coverage, tool ownership, skill levels and executor support are separate constraints. The current working tree indexes one cage/harpoon cluster at Musa Point (three NPCs), marked as reachable by the Port Sarim ferry. The fishing action has a dedicated swordfish target requiring Fishing 50; it sails out and back for 30 coins each way and protects Karamjan rum from customs confiscation. Cooking owned raw swordfish remains supported at Cooking 45. See [swordfish fishing](swordfish-fishing.md) for implementation details and verification limits.
+Static resource coverage, map coverage, tool ownership, skill levels and executor support are separate constraints. The resource index includes one cage/harpoon cluster at Musa Point (three NPCs), marked as reachable by the Port Sarim ferry. The fishing action has a dedicated swordfish target requiring Fishing 50; it sails out and back for 30 coins each way and protects Karamjan rum from customs confiscation. Cooking owned raw swordfish remains supported at Cooking 45. See [swordfish fishing](swordfish-fishing.md) for implementation details and verification limits.
 
 Ownership assignment provides accountability, not a semantic validation of the owner's commitment or a guarantee of execution. Models can choose unrelated actions. Last-seen stock, changing prices, travel hazards, cooking burns and partial trades can invalidate a planned chain.
 
 Portrait invalidation hashes appearance and angle count but not every renderer/configuration input. The watcher sends SIGTERM on timeout without a guaranteed hard-kill escalation. S3-only publication configuration and image invalidation deserve dedicated implementation review before claiming full delivery guarantees. Map rendering has failure cleanup and output-extension limitations documented in its contract.
 
-## Verification and scope
+## Verification
 
-This bootstrap reads source and writes documentation only; it does not restart the party or run game actions. Package contracts cover first-party controller, portraits, world index and map utilities. SDK internals, credentials, saves, generated assets, live logs and the external website are excluded. Scout coverage and exceptions are recorded in the review artifact. Future changes need focused acceptance checks and an explicit distinction between source implementation, running-process loading and observed game outcomes.
+Use focused source tests and typechecking for implementation changes. Public docs
+cover first-party behavior, not SDK internals or live health. Avoid runtime imports
+for documentation checks. See [operations](../operations.md) for reload verification.

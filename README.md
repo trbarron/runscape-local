@@ -12,12 +12,8 @@ runscape-local/
 ```
 
 For maintenance work, start with [agent guidance](AGENT.md), [layer ownership](agents/LAYERS.md)
-and [the current handoff](agents/HANDOFF.md). Runtime and configuration details are in
+and [operations](docs/operations.md). Runtime and configuration details are in
 [the party README](agents/README.md).
-
-## Experiment retrospective
-
-[Four Adventurers, Three Tiers of Intelligence](docs/runescape-rascals-retrospective.md) is a presentation-style account of the Runescape Rascals experiment: lightweight character planning, periodic maintenance with more capable models, and human judgment that directs and evaluates the system. It credits RS-SDK/RuneBench and includes evidence and limitations.
 
 ## Setup
 
@@ -36,7 +32,9 @@ git -C rs-sdk apply ../patches/rs-sdk-door-retry.patch
 Create `.env` locally with `OPENAI_API_KEY` before running the party. Accounts,
 saves, runtime state, logs, model overrides and environment files stay local and
 are excluded from Git. Never commit credentials or private browser endpoints.
-The dated handoff records historical operational evidence, not current health.
+For an operated instance, create an ignored local handoff from
+[the template](agents/HANDOFF.example.md). Keep session reports and presentations
+outside the public source tree.
 
 ## Run
 

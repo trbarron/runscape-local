@@ -21,3 +21,10 @@ agents/maintenance/__pycache__/
 .env.*
 !.env.example
 agents/models.json
+
+# Local operations and optional development tooling
+agents/HANDOFF.md
+agents/reviews/
+agents/changes.json
+agents/maintenance/review-prompt.md
+third_party/egm/
