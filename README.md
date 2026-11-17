@@ -1,113 +1,62 @@
-# runscape-local
+# Runescape Rascals
 
-Self-hosted [rs-sdk](https://github.com/MaxBittker/rs-sdk) game server for testing agents.
-It's shared over Tailscale, so only devices on (or shared into) the tailnet can reach it.
+An experiment in getting four AI characters to live, learn and work together in a
+persistent RuneScape world. Bram, Wren, Mike and Trish gather resources, make
+equipment, explore and negotiate shared goals through a self-hosted
+[RS-SDK](https://github.com/MaxBittker/rs-sdk) game server.
 
-```
-runscape-local/
-├── docker-compose.yml   # server container (engine + login server + gateway)
-├── data/                # persistent: accounts db, player saves, GE db
-├── agents/              # the four-character party (see agents/README.md)
-└── rs-sdk/              # upstream clone (SDK, bots/, build context)
-```
+The aim is a party that can pursue something worthwhile together with less human
+intervention over time. Level gains and full banks are useful observations, but
+the more interesting questions are whether the characters coordinate dependencies,
+share useful knowledge, revise stale beliefs and recover when a plan stops working.
 
-For maintenance work, start with [agent guidance](AGENT.md), [layer ownership](agents/LAYERS.md)
-and [operations](docs/operations.md). Runtime and configuration details are in
-[the party README](agents/README.md).
+## How it works
 
-## Setup
+Each character has a persistent identity, memory and view of the world. A language
+model chooses a bounded routine; code handles movement, inventory, crafting and
+other repeated actions. Characters return to planning when work finishes, encounters
+a blocker or needs reconsideration. A recurring council negotiates shared work.
 
-Install Git, Bun and Docker with Compose. The upstream checkout is intentionally
-excluded from this repository. Recreate the reviewed SDK baseline and local door
-recovery fixes before starting the server:
+The project separates three responsibilities:
 
-```sh
-git clone https://github.com/MaxBittker/rs-sdk.git rs-sdk
-git -C rs-sdk checkout b565f2d920bf6f5ec427bc6f66dc6fd64a2e15c1
-git -C rs-sdk apply ../patches/rs-sdk-door-retry.patch
-(cd rs-sdk && bun install)
-(cd agents && bun install)
-```
+- **Characters choose and act.** They decide what to do, negotiate help and carry
+  out routines within the executor's readiness and safety checks.
+- **Maintenance improves the system.** A coding assistant can inspect outcomes,
+  diagnose failures and make authorized, tested repairs. An optional scheduler
+  runs reviews separately from the party.
+- **The human sets direction.** The operator chooses constraints and budgets,
+  evaluates whether the objective is still worthwhile and decides when to intervene.
 
-Create `.env` locally with `OPENAI_API_KEY` before running the party. Accounts,
-saves, runtime state, logs, model overrides and environment files stay local and
-are excluded from Git. Never commit credentials or private browser endpoints.
-For an operated instance, create an ignored local handoff from
-[the template](agents/HANDOFF.example.md). Keep session reports and presentations
-outside the public source tree.
+The dashboard makes activity, conversations and mission progress visible. Game
+observations establish outcomes; a plan, promise or busy character does not by
+itself establish progress toward the shared goal.
 
-## Run
+## What this repository contains
 
-```sh
-docker compose up -d            # start (restarts automatically with Docker)
-docker compose logs -f          # logs
-docker compose down             # stop (data/ is kept)
-```
+The party controller, planning and execution code, coordination and learning
+mechanisms, tests, local server configuration and dashboard publisher. The game
+and SDK are separate dependencies. The public website is maintained separately;
+it observes the party rather than controlling it.
 
-Update to latest upstream:
+This remains an experimental system. Bank observations can go stale, coordination
+can fail, and process recovery does not guarantee useful teamwork. The documents
+below describe implemented behavior and known limits, rather than claiming
+unattended autonomy or current deployment health.
 
-```sh
-# Review upstream compatibility and reapply local patches before upgrading.
-docker compose up -d --build
-```
+## Explore or run it
 
-Ports are published on `127.0.0.1` only (8080/8888 web, 7780 gateway, 43594 game).
-Nothing is exposed on the LAN or the internet.
+- [Local setup](docs/setup.md): dependencies, game server and optional private access.
+- [Party guide](agents/README.md): startup, configuration, code layout and validation.
+- [Architecture and behavior](docs/designs/SITEMAP.md): implementation contracts.
+- [Layer responsibilities](agents/LAYERS.md): who owns decisions and what counts as evidence.
+- [Operations](docs/operations.md): local state, reviews and safe recovery.
+- [Contributor guidance](AGENT.md): making changes without disturbing an existing party.
 
-## Share over Tailscale
+Accounts, saves, credentials and operational history stay local. The repository
+contains the software and its contracts, not a running party's private state.
 
-One-time setup on this machine (Tailscale must be logged in):
+## Foundation
 
-```sh
-tailscale serve --bg 8080       # https://<machine>.<tailnet>.ts.net -> localhost:8080
-tailscale serve status
-```
-
-That HTTPS endpoint carries everything a remote user needs: the web/bot client and the
-SDK gateway (`wss://<host>/gateway`). To give someone access, either invite them to the
-tailnet or use **Share** on this machine in the Tailscale admin console
-(https://login.tailscale.com/admin/machines). Revoke access there too.
-
-To stop sharing: `tailscale serve --https=443 off`.
-
-## Accounts
-
-There's no server-wide password: any tailnet member who can reach the server can
-create a new account just by logging in with an unused name. Each account's password
-only protects that account. The real gate is Tailscale access.
-
-## Connecting a bot
-
-**On this machine:**
-
-```sh
-cd rs-sdk
-bun bots/create-bot.ts mybot --local
-cd server/webclient && bun src/lite/runner.ts mybot     # leave running (headless client)
-# in another terminal, from rs-sdk/:
-bun bots/mybot/script.ts
-```
-
-**From another tailnet device** (they clone rs-sdk and run `bun install`):
-
-```sh
-bun bots/create-bot.ts mybot --server=<machine>.<tailnet>.ts.net
-```
-
-Or open `https://<machine>.<tailnet>.ts.net/bot?bot=mybot&password=...` in a browser
-instead of running the lite client.
-
-Note: `bot.env` has `TELEMETRY=true` by default, which sends SDK bug reports to the
-upstream shared server. Set `TELEMETRY=false` to keep everything local.
-
-## Tuning
-
-Edit `environment:` in `docker-compose.yml`, then run `docker compose up -d`:
-
-- `NODE_TICKRATE`: ms per tick (200 = 3x real RS speed, which is 600).
-  At runtime you can also use `::speed <ms>` in game (min 20, not persisted).
-- `NODE_XPRATE`: XP multiplier (1 = normal; the upstream demo server uses 25).
-- `GE_ENABLED=false` disables the Grand Exchange.
-- `NODE_PROFANITY_FILTER=false` disables the chat filter.
-
-The [design index](docs/designs/SITEMAP.md) and [repo-local EGM workflow](docs/designs/WORKFLOW.md) document the existing system and guide substantive changes.
+Built on [Max Bittker's RS-SDK](https://github.com/MaxBittker/rs-sdk), which provides
+the game environment and programmatic interface. This repository focuses on the
+persistent party and the systems around its decisions.

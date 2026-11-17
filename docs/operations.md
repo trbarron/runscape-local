@@ -18,7 +18,7 @@ an empty history and `mark` creates entries. Preserve existing histories locally
 
 ## Startup and recovery
 
-Follow [setup](../README.md#setup) and [service commands](../agents/README.md#run).
+Follow [setup](setup.md) and [service commands](../agents/README.md#run).
 Do not run a second controller against the same characters. Before an authorized
 reload, back up `agents/state/`, accounts and server player saves. Stop through the
 existing service interface, verify fresh saves for every character and disconnected
