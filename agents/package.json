@@ -1,0 +1,17 @@
+{
+    "name": "agents",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "bun orchestrator.ts",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.1157.0",
+        "ioredis": "5"
+    }
+}

@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<title>The Party</title>
+<link rel="icon" href="data:,">
+<meta name="description" content="Four LLM agents with D&D character sheets, playing a RuneScape-style world together and negotiating who does what.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+    --paper: #fff;
+    --ink: #000;
+    --ink-2: #404040;
+    --muted: #737373;
+    --line: #e5e5e5;
+    --wash: #f5f5f5;
+    --shadow: #111;
+    --neo: "Inter", system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SF Mono", Monaco, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 13px/1.45 var(--neo); -webkit-font-smoothing: antialiased; }
+main { max-width: 1200px; margin: 0 auto; padding: 16px 16px 40px; display: flex; flex-direction: column; gap: 16px; }
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+.mono { font-family: var(--mono); }
+.muted { color: var(--muted); }
+.box { border: 4px solid var(--ink); background: var(--paper); }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+.grid-log { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 16px; align-items: stretch; }
+/* Panels side by side are always the same height; their scrolling lists take up the slack. */
+.grid2 > .panel, .grid-log > .panel { display: flex; flex-direction: column; min-width: 0; }
+.grid2 > .panel > .scroll { flex: 1; }
+@media (max-width: 900px) { .grid2, .grid-log { grid-template-columns: minmax(0, 1fr); } }
+
+/* header */
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; border-bottom: 4px solid var(--ink); padding-bottom: 10px; }
+h1 { margin: 0; font-weight: 900; text-transform: uppercase; letter-spacing: -0.04em; font-size: 34px; line-height: 1; }
+h1 small { font: 700 12px var(--neo); letter-spacing: .06em; color: var(--ink-2); margin-left: 10px; vertical-align: 6px; }
+.strip { display: flex; flex-wrap: wrap; gap: 4px 16px; font: 12px var(--mono); text-transform: uppercase; }
+.strip .live::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); margin-right: 6px; vertical-align: 0; }
+.strip .live.stale::before { background: transparent; border: 2px solid var(--ink); }
+
+/* panel headings */
+.panel { padding: 10px 12px 12px; }
+h2 { margin: 0 0 8px; font: 900 15px/1 var(--neo); text-transform: uppercase; letter-spacing: -0.01em; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+h2 span { font: 11px var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+
+/* roster strip */
+.roster { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { .roster { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.member { position: relative; padding: 10px 12px 34px; border-left: 4px solid var(--ink); display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.member:first-child { border-left: 0; }
+@media (max-width: 900px) { .member:nth-child(3) { border-left: 0; } .member:nth-child(n+3) { border-top: 4px solid var(--ink); } }
+.member .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.member .nm { font: 900 20px/1 var(--neo); text-transform: uppercase; letter-spacing: -0.02em; display: flex; align-items: center; gap: 7px; }
+.member .lvl { font: 900 24px/1 var(--neo); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.member .lvl small { font: 700 10px var(--neo); letter-spacing: .06em; color: var(--ink-2); margin-left: 3px; }
+.member .task { font-weight: 700; text-transform: uppercase; font-size: 12px; overflow-wrap: anywhere; }
+.member .where { font: 11px var(--mono); color: var(--ink-2); }
+.member .toggle { position: absolute; right: 12px; bottom: 10px; }
+.toggle { border: 2px solid var(--ink); background: var(--paper); padding: 0 6px; font: 700 10px/16px var(--neo); letter-spacing: .06em; text-transform: uppercase; cursor: pointer; white-space: nowrap; }
+.toggle[aria-expanded="true"] { background: var(--ink); color: var(--paper); }
+.screens { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 12px; padding: 12px; border-top: 4px solid var(--ink); }
+.screens[hidden] { display: none; }
+.screens figure { margin: 0; border: 2px solid var(--ink); }
+.screens img { display: block; width: 100%; height: auto; }
+.screens figcaption { border-top: 2px solid var(--ink); padding: 3px 6px; font: 700 10px var(--neo); letter-spacing: .06em; text-transform: uppercase; }
+.screens .none { aspect-ratio: 765 / 503; display: grid; place-items: center; font: 11px var(--mono); color: var(--muted); background: var(--wash); }
+
+.goal { padding: 8px 12px 10px; }
+.goal .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.goal .vision { margin: 4px 0 6px; font-size: 14px; }
+.milestones { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 6px; }
+.milestones li { border: 2px solid var(--ink); padding: 5px 8px 6px 30px; position: relative; }
+.milestones li.done { background: var(--wash); }
+.milestones li.done .what { text-decoration: line-through; }
+.milestones .check { position: absolute; left: 7px; top: 6px; width: 14px; height: 14px; border: 2px solid var(--ink); font: 900 10px/10px var(--neo); text-align: center; }
+.milestones li.done .check { background: var(--ink); color: var(--paper); }
+.milestones .what { display: block; font-weight: 700; }
+.milestones .needs { display: block; font: 11px var(--mono); color: var(--ink-2); }
+.goal .label { font: 900 13px var(--neo); text-transform: uppercase; letter-spacing: -0.01em; }
+.goal .title { font: 800 15px var(--neo); text-transform: uppercase; }
+.goal .meta { font: 11px var(--mono); color: var(--ink-2); }
+
+/* tables */
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 12px var(--mono); }
+th, td { padding: 3px 8px; text-align: right; border-top: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+th { font: 800 11px var(--neo); text-transform: uppercase; letter-spacing: .04em; border-top: 0; border-bottom: 3px solid var(--ink); padding-bottom: 4px; }
+th:first-child, td:first-child { text-align: left; }
+th .sw { display: inline-flex; align-items: center; gap: 4px; }
+td.lead { font-weight: 700; }
+td.lead span { border-bottom: 2px solid var(--ink); }
+tr.total td { border-top: 3px solid var(--ink); font-weight: 700; }
+td.note { text-align: left; white-space: normal; color: var(--muted); font-size: 11px; }
+td.hint { text-align: left; color: var(--muted); font-size: 11px; white-space: normal; }
+
+/* chart */
+.chartwrap { position: relative; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 700 11px var(--neo); text-transform: uppercase; letter-spacing: .04em; }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+#chart svg { display: block; width: 100%; }
+.tip { position: absolute; pointer-events: none; background: var(--paper); border: 2px solid var(--ink); box-shadow: 3px 3px 0 0 var(--shadow); padding: 4px 7px; font: 11px var(--mono); white-space: nowrap; display: none; z-index: 2; }
+.tip b { font-family: var(--neo); text-transform: uppercase; }
+.empty { font: 11px var(--mono); color: var(--muted); text-align: center; padding: 18px 0; text-transform: uppercase; }
+
+/* log */
+.filters { display: flex; flex-wrap: wrap; gap: 4px; }
+.filters button { border: 2px solid var(--ink); background: var(--paper); padding: 0 7px; font: 700 10px/16px var(--neo); letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.feed { flex: 1 1 0; min-height: 320px; overflow-y: auto; margin-top: 6px; }
+.entry { display: grid; grid-template-columns: 44px 58px 76px 1fr; gap: 6px; padding: 4px 0; border-top: 1px solid var(--line); align-items: baseline; }
+.entry:first-child { border-top: 0; }
+.entry time { font: 11px var(--mono); color: var(--ink-2); }
+.entry .nm { font-weight: 800; text-transform: uppercase; font-size: 11px; }
+.tag { display: inline-block; font: 700 9px var(--neo); letter-spacing: .06em; text-transform: uppercase; border: 1.5px solid var(--ink); padding: 0 4px; line-height: 14px; white-space: nowrap; }
+.tag.solid { background: var(--ink); color: var(--paper); }
+.entry .title { font-weight: 600; }
+.entry .detail { display: block; font: italic 11px var(--mono); color: var(--ink-2); }
+@media (max-width: 560px) { .entry { grid-template-columns: 40px 1fr; } .entry .who { grid-column: 2; } .entry .txt { grid-column: 1 / -1; } }
+.mapbox { flex: 1; display: flex; align-items: center; }
+.mapbox svg { display: block; width: 100%; height: auto; }
+
+/* talk */
+.posts { flex: 1 1 0; min-height: 220px; overflow-y: auto; }
+.post { padding: 5px 0; border-top: 1px solid var(--line); }
+.post:first-child { border-top: 0; }
+.post .meta { font: 11px var(--mono); color: var(--ink-2); }
+.post .meta b { font: 800 11px var(--neo); color: var(--ink); text-transform: uppercase; margin-right: 4px; }
+.post p { margin: 1px 0 0; }
+.plan-row { padding: 5px 0; border-top: 1px solid var(--line); }
+.plan-row:first-of-type { border-top: 0; }
+.plan-row b { text-transform: uppercase; font-weight: 800; margin-right: 5px; }
+.plan-row .asks { display: block; font: 11px var(--mono); color: var(--ink-2); }
+
+footer { border-top: 4px solid var(--ink); padding-top: 8px; font-size: 12px; color: var(--ink-2); }
+footer p { margin: 0 0 4px; }
+</style>
+</head>
+<body>
+<main>
+    <div class="box">
+        <div class="roster" id="roster"></div>
+        <div class="screens" id="screens" hidden></div>
+    </div>
+
+    <div class="box goal" id="goal"></div>
+
+    <div class="grid2">
+        <div class="box panel"><h2>Skills <span>underlined = best in the party</span></h2><div class="scroll" id="skills"></div></div>
+        <div class="box panel"><h2>By the numbers <span id="numbers-note"></span></h2><div class="scroll" id="metrics"></div></div>
+    </div>
+
+    <div class="box panel chartwrap">
+        <h2>Total level over time <span class="legend" id="legend"></span></h2>
+        <div id="chart"></div>
+        <div class="tip" id="tip"></div>
+    </div>
+
+    <div class="grid-log">
+        <div class="box panel">
+            <h2>Decision log <span>the model is only asked when something changes</span></h2>
+            <div class="filters" id="filters"></div>
+            <div class="feed" id="log"></div>
+        </div>
+        <div class="box panel"><h2>Where they are <span>last 10 min of movement</span></h2><div class="mapbox" id="map"></div></div>
+    </div>
+
+    <div class="grid2">
+        <div class="box panel"><h2>Message board</h2><div class="posts" id="board"></div></div>
+        <div class="box panel"><h2>Party plan <span id="plan-note"></span></h2><div id="plan"></div></div>
+    </div>
+
+    <footer>
+        <p>Each character has a D&amp;D sheet whose ability scores give soft leanings but no fixed role; every half hour they hold a council to split the work. A cheap model sets standing orders like "mine copper until 50 ore", and deterministic code does the playing.</p>
+        <p id="foot"></p>
+        <p>Runs on a private <a href="https://github.com/MaxBittker/rs-sdk">rs-sdk</a> server (a LostCity 2004scape emulator). Not affiliated with Jagex.</p>
+    </footer>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const SVG = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs = {}, text) => {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) if (v != null) k === 'class' ? (e.className = v) : e.setAttribute(k, v);
+    if (text != null) e.textContent = text;
+    return e;
+};
+const sv = (tag, attrs = {}, text) => {
+    const e = document.createElementNS(SVG, tag);
+    for (const [k, v] of Object.entries(attrs)) if (v != null) e.setAttribute(k, v);
+    if (text != null) e.textContent = text;
+    return e;
+};
+const ago = t => { if (!t) return 'never'; const s = Math.max(0, Math.round((Date.now() - t) / 1000)); return s < 90 ? s + 's ago' : s < 5400 ? Math.round(s / 60) + 'm ago' : Math.round(s / 3600) + 'h ago'; };
+const clock = t => new Date(t).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
+const pct = x => Math.round((x ?? 0) * 100) + '%';
+
+// Identity is never colour: each character keeps one marker shape and one line dash everywhere.
+const SHAPES = ['circle', 'square', 'triangle', 'diamond'];
+const DASHES = ['', '9 5', '2 4', '12 4 2 4'];
+function marker(shape, x, y, r) {
+    const a = { fill: '#000', stroke: '#fff', 'stroke-width': 2 };
+    if (shape === 'circle') return sv('circle', { cx: x, cy: y, r, ...a });
+    if (shape === 'square') return sv('rect', { x: x - r, y: y - r, width: r * 2, height: r * 2, ...a });
+    if (shape === 'triangle') return sv('polygon', { points: `${x},${y - r * 1.15} ${x + r * 1.1},${y + r * .85} ${x - r * 1.1},${y + r * .85}`, ...a });
+    return sv('polygon', { points: `${x},${y - r * 1.25} ${x + r * 1.25},${y} ${x},${y + r * 1.25} ${x - r * 1.25},${y}`, ...a });
+}
+function swatch(i, dashed) {
+    const s = sv('svg', { width: dashed ? 30 : 14, height: 14, viewBox: dashed ? '0 0 30 14' : '0 0 14 14', 'aria-hidden': 'true' });
+    if (dashed) s.append(sv('line', { x1: 1, y1: 7, x2: 29, y2: 7, stroke: '#000', 'stroke-width': 2, 'stroke-dasharray': DASHES[i] || null }));
+    s.append(marker(SHAPES[i], dashed ? 15 : 7, 7, 4.5));
+    return s;
+}
+// A table header cell for a character: marker + name, so tables read like the chart and map.
+function botTh(b, i) {
+    const th = el('th'); const w = el('span', { class: 'sw' });
+    w.append(swatch(i, false), document.createTextNode(b.name)); th.append(w); return th;
+}
+
+let snap = null;
+let filter = 'all';
+let screensOpen = new Set();
+
+// ------------------------------------------------------------------ header + roster
+
+function renderStrip() {
+    if (!$('strip')) return;
+    // "Live" needs more than a snapshot being written: the game must be moving and the cameras working.
+    const FIVE = 5 * 60000;
+    const shots = snap.bots.map(b => b.shotAt).filter(Boolean);
+    const frozen = snap.lastEventAt && Date.now() - snap.lastEventAt > FIVE;
+    const blind = snap.uptimeMin >= 6 && (!shots.length || Date.now() - Math.max(...shots) > FIVE);
+    const stale = Date.now() - snap.generatedAt > 120000;
+    const why = stale ? `Last seen ${ago(snap.generatedAt)}` : frozen ? `No game activity for ${ago(snap.lastEventAt).replace(' ago', '')}` : blind ? 'Screenshots stopped' : '';
+    $('strip').replaceChildren(
+        el('span', { class: 'live' + (why ? ' stale' : '') }, why || 'Live'),
+        el('span', {}, `Party total ${snap.partyTotal}`),
+        el('span', {}, `Up ${snap.uptimeMin} min`),
+        el('span', {}, `${snap.party.councils} councils`),
+        el('span', {}, `$${snap.spend.usd.toFixed(3)} spent`));
+}
+
+function renderRoster() {
+    $('roster').replaceChildren(...snap.bots.map((b, i) => {
+        const m = el('div', { class: 'member' });
+        const top = el('div', { class: 'top' });
+        const nm = el('span', { class: 'nm' }); nm.append(swatch(i, false), document.createTextNode(b.name));
+        const lvl = el('span', { class: 'lvl' }, String(b.totalLevel)); lvl.append(el('small', {}, 'LVL'));
+        top.append(nm, lvl);
+        const where = el('div', { class: 'where' });
+        const toggle = el('button', { class: 'toggle', type: 'button', 'aria-expanded': String(screensOpen.has(b.name)), 'aria-controls': 'screens' }, 'Screen');
+        toggle.addEventListener('click', () => { screensOpen.has(b.name) ? screensOpen.delete(b.name) : screensOpen.add(b.name); renderRoster(); });
+        where.textContent = b.location;
+        m.append(top, el('div', { class: 'task' }, b.action.replace(/_/g, ' ')), where, toggle);
+        return m;
+    }));
+    const open = snap.bots.filter(b => screensOpen.has(b.name));
+    const box = $('screens');
+    box.hidden = !open.length;
+    box.replaceChildren(...open.map(b => {
+        const f = el('figure');
+        if (b.shotAt) f.append(el('img', { src: `shots/${b.name}.jpg?t=${b.shotAt}`, alt: `In-game view from ${b.name}` }));
+        else f.append(el('div', { class: 'none' }, 'No screenshot yet'));
+        f.append(el('figcaption', {}, `${b.name} · ${b.shotAt ? ago(b.shotAt) : 'waiting'}`));
+        return f;
+    }));
+}
+
+// ------------------------------------------------------------------ skills + numbers
+
+function renderSkills() {
+    const level = (b, s) => b.skills.find(x => x.name === s)?.level ?? 1;
+    const every = [...new Set(snap.bots.flatMap(b => b.skills.map(s => s.name)))].filter(n => !/^stat\d+$/i.test(n));
+    const trained = every.filter(n => snap.bots.some(b => level(b, n) > 1));
+    const untrained = every.filter(n => !trained.includes(n));
+    trained.sort((a, b) => Math.max(...snap.bots.map(x => level(x, b))) - Math.max(...snap.bots.map(x => level(x, a))));
+    const t = el('table');
+    const head = el('tr'); head.append(el('th', {}, 'Skill'), ...snap.bots.map(botTh));
+    const rows = trained.map(s => {
+        const ls = snap.bots.map(b => level(b, s));
+        const top = Math.max(...ls);
+        const r = el('tr'); r.append(el('td', {}, s));
+        ls.forEach(v => { const td = el('td', { class: v === top ? 'lead' : null }); td.append(el('span', {}, String(v))); r.append(td); });
+        return r;
+    });
+    const combat = el('tr'); combat.append(el('td', {}, 'Combat level'), ...snap.bots.map(b => el('td', {}, String(b.combat ?? '–'))));
+    const total = el('tr', { class: 'total' }); total.append(el('td', {}, 'Total level'), ...snap.bots.map(b => el('td', {}, String(b.totalLevel))));
+    const rest = el('tr');
+    if (untrained.length) rest.append(el('td', { class: 'note', colspan: String(snap.bots.length + 1) }, `Level 1 for everyone: ${untrained.join(', ')}`));
+    t.append(head, ...rows, combat, total, ...(untrained.length ? [rest] : []));
+    $('skills').replaceChildren(t);
+}
+
+const METRICS = [
+    ['XP per hour', m => (m.xpPerHour == null ? '–' : m.xpPerHour.toLocaleString()), 'all skills combined; shown after 10 minutes'],
+    ['Decisions per hour', m => (m.decisionsPerHour == null ? '–' : String(m.decisionsPerHour)), 'model calls that set an order; shown after 10 minutes'],
+    ['Repeat picks', m => pct(m.repeatRate), 'same action as the order before'],
+    ['Time resting', m => pct(m.rest), 'share of order time spent resting'],
+    ['New promises kept', m => (m.commitments.made ? `${m.commitments.done}/${m.commitments.made}` : '–'), 'promises created in the last 3 hours and resolved as done'],
+    ['Earlier promises kept', m => String(m.commitments.carriedDone ?? '–'), 'created before the reporting window, completed within it'],
+    ['Earlier promises dropped', m => String(m.commitments.carriedDropped ?? '–'), 'created before the reporting window, dropped within it'],
+    ['New promises dropped', m => String(m.commitments.dropped), ''],
+    ['Fits leanings', m => (m.leaningAlignment == null ? '–' : m.leaningAlignment.toFixed(2)), 'rank correlation, ability leanings vs time spent (1 = perfect)'],
+    ['Prompt cache', m => pct(m.cacheHitRate), 'input tokens served from cache'],
+    ['Cost', m => '$' + m.costUsd.toFixed(3), 'this run']
+];
+
+function renderMetrics() {
+    const bots = snap.bots.filter(b => b.metrics);
+    const t = el('table');
+    const head = el('tr'); head.append(el('th', {}, 'This run'), ...bots.map(b => botTh(b, snap.bots.indexOf(b))));
+    const rows = METRICS.map(([label, f, hint]) => {
+        const r = el('tr');
+        const td = el('td', { title: hint || null }, label);
+        r.append(td, ...bots.map(b => el('td', {}, f(b.metrics))));
+        return r;
+    });
+    const deaths = el('tr'); deaths.append(el('td', {}, 'Deaths (all time)'), ...bots.map(b => el('td', {}, String(b.deaths))));
+    t.append(head, ...rows, deaths);
+    $('metrics').replaceChildren(t);
+    $('numbers-note').textContent = `$${snap.party.costPerHour.toFixed(3)}/h · ${pct(snap.party.cacheHitRate)} cached`;
+}
+
+// ------------------------------------------------------------------ chart
+
+function niceTicks(lo, hi, n) {
+    const span = hi - lo || 1;
+    const step = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500].find(s => span / s <= n) ?? 1000;
+    const out = [];
+    for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) out.push(v);
+    return out;
+}
+
+function renderChart() {
+    const box = $('chart');
+    const samples = snap.history;
+    const names = snap.bots.map(b => b.name);
+    $('legend').replaceChildren(...names.map((n, i) => { const s = el('span'); s.append(swatch(i, true), document.createTextNode(n)); return s; }));
+    if (samples.length < 2) { box.replaceChildren(el('div', { class: 'empty' }, 'Collecting data: one sample a minute')); return; }
+    const W = Math.max(320, box.clientWidth || 900), H = 170, m = { l: 36, r: 64, t: 6, b: 20 };
+    const t0 = samples[0].t, t1 = samples.at(-1).t;
+    const vals = samples.flatMap(s => names.map(n => s.levels[n]).filter(v => v != null));
+    let lo = Math.floor(Math.min(...vals) / 10) * 10, hi = Math.ceil(Math.max(...vals) / 10) * 10;
+    if (hi === lo) hi = lo + 10;
+    const X = t => m.l + ((t - t0) / (t1 - t0 || 1)) * (W - m.l - m.r);
+    const Y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+    const s = sv('svg', { viewBox: `0 0 ${W} ${H}`, height: H, role: 'img', 'aria-label': 'Total level over time for each character' });
+    const txt = (x, y, str, anchor = 'start') => sv('text', { x, y, 'text-anchor': anchor, 'font-family': 'IBM Plex Mono, monospace', 'font-size': 10, fill: '#404040' }, str);
+    for (const v of niceTicks(lo, hi, 4)) {
+        s.append(sv('line', { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: '#e5e5e5', 'stroke-width': 1 }));
+        s.append(txt(m.l - 6, Y(v) + 3, String(v), 'end'));
+    }
+    const nx = Math.min(8, Math.max(2, Math.floor((W - m.l - m.r) / 100)));
+    const seen = new Set();
+    for (let k = 0; k <= nx; k++) {
+        const t = t0 + ((t1 - t0) * k) / nx;
+        if (seen.has(clock(t))) continue;
+        seen.add(clock(t));
+        s.append(txt(X(t), H - 5, clock(t), k === 0 ? 'start' : k === nx ? 'end' : 'middle'));
+    }
+    s.append(sv('line', { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: '#000', 'stroke-width': 2 }));
+    const ends = [];
+    names.forEach((n, i) => {
+        const pts = samples.filter(x => x.levels[n] != null).map(x => [X(x.t), Y(x.levels[n])]);
+        if (!pts.length) return;
+        s.append(sv('polyline', { points: pts.map(p => p.join(',')).join(' '), fill: 'none', stroke: '#000', 'stroke-width': 2, 'stroke-dasharray': DASHES[i] || null, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+        const [ex, ey] = pts.at(-1);
+        s.append(marker(SHAPES[i], ex, ey, 4.5));
+        ends.push({ n, y: ey });
+    });
+    ends.sort((a, b) => a.y - b.y);
+    for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 12) ends[k].y = ends[k - 1].y + 12;
+    for (const e of ends) s.append(sv('text', { x: W - m.r + 9, y: e.y + 4, 'font-family': 'Inter, sans-serif', 'font-weight': 800, 'font-size': 11, fill: '#000' }, e.n.toUpperCase()));
+
+    const cross = sv('line', { y1: m.t, y2: H - m.b, stroke: '#000', 'stroke-width': 1, 'stroke-dasharray': '3 3', visibility: 'hidden' });
+    const hit = sv('rect', { x: m.l, y: m.t, width: W - m.l - m.r, height: H - m.t - m.b, fill: 'transparent' });
+    s.append(cross, hit);
+    const tip = $('tip');
+    hit.addEventListener('mousemove', ev => {
+        const r = s.getBoundingClientRect();
+        const px = ((ev.clientX - r.left) / r.width) * W;
+        let best = samples[0];
+        for (const x of samples) if (Math.abs(X(x.t) - px) < Math.abs(X(best.t) - px)) best = x;
+        cross.setAttribute('x1', X(best.t)); cross.setAttribute('x2', X(best.t)); cross.setAttribute('visibility', 'visible');
+        tip.replaceChildren(el('div', {}, clock(best.t)), ...Object.entries(best.levels).sort((a, b) => b[1] - a[1]).map(([n, v]) => { const d = el('div'); d.append(el('b', {}, n), document.createTextNode(` ${v}`)); return d; }));
+        tip.style.display = 'block';
+        const host = tip.parentElement.getBoundingClientRect();
+        const left = (X(best.t) / W) * r.width + (r.left - host.left);
+        tip.style.left = Math.max(8, Math.min(left + 12, host.width - tip.offsetWidth - 8)) + 'px';
+        tip.style.top = (ev.clientY - host.top - 16) + 'px';
+    });
+    hit.addEventListener('mouseleave', () => { tip.style.display = 'none'; cross.setAttribute('visibility', 'hidden'); });
+    box.replaceChildren(s);
+}
+
+// ------------------------------------------------------------------ log + map
+
+const KIND = { decided: ['Decided', true], done: ['Done', false], blocked: ['Blocked', false], stuck: ['Stuck', false], stale: ['Ran long', false], interrupted: ['Interrupted', false], died: ['Died', true], death: ['Died', true], trade: ['Trade', false], council: ['Council', true], promise: ['Promise', false], cooldown: ['Cooldown', false] };
+
+function renderLog() {
+    const opts = ['all', ...snap.bots.map(b => b.name), 'council'];
+    $('filters').replaceChildren(...opts.map(o => {
+        const btn = el('button', { type: 'button', 'aria-pressed': String(filter === o) }, o);
+        btn.addEventListener('click', () => { filter = o; renderLog(); });
+        return btn;
+    }));
+    const rows = snap.log.slice().reverse().filter(e => filter === 'all' || e.bot === filter).slice(0, 120).map(e => {
+        const [label, solid] = KIND[e.kind] ?? [e.kind, false];
+        const r = el('div', { class: 'entry' });
+        const txt = el('div', { class: 'txt' });
+        txt.append(el('span', { class: 'title' }, e.title));
+        if (e.detail) txt.append(el('span', { class: 'detail' }, e.detail));
+        const tag = el('span', { class: 'who' }); tag.append(el('span', { class: 'tag' + (solid ? ' solid' : '') }, label));
+        r.append(el('time', { datetime: new Date(e.t).toISOString() }, clock(e.t)), el('span', { class: 'nm' }, e.bot), tag, txt);
+        return r;
+    });
+    $('log').replaceChildren(...(rows.length ? rows : [el('div', { class: 'empty' }, 'Nothing yet')]));
+}
+
+function renderMap() {
+    const pts = [...snap.landmarks.filter(l => !['Falador', 'Tutorial Island', 'Varrock'].includes(l.name)), ...snap.bots.filter(b => b.pos).map(b => b.pos)];
+    const pad = 24;
+    const minX = Math.min(...pts.map(p => p.x)) - pad, maxX = Math.max(...pts.map(p => p.x)) + pad;
+    const minZ = Math.min(...pts.map(p => p.z)) - pad, maxZ = Math.max(...pts.map(p => p.z)) + pad;
+    const W = 480, H = Math.round(W * (maxZ - minZ) / (maxX - minX));
+    const X = x => ((x - minX) / (maxX - minX)) * W;
+    const Y = z => ((maxZ - z) / (maxZ - minZ)) * H;
+    const s = sv('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Map of where each character is' });
+    for (let gx = Math.ceil(minX / 50) * 50; gx < maxX; gx += 50) s.append(sv('line', { x1: X(gx), y1: 0, x2: X(gx), y2: H, stroke: '#e5e5e5', 'stroke-width': 1 }));
+    for (let gz = Math.ceil(minZ / 50) * 50; gz < maxZ; gz += 50) s.append(sv('line', { x1: 0, y1: Y(gz), x2: W, y2: Y(gz), stroke: '#e5e5e5', 'stroke-width': 1 }));
+    const botXY = snap.bots.filter(b => b.pos).map(b => [X(b.pos.x), Y(b.pos.z)]);
+    for (const l of snap.landmarks) {
+        if (l.name === 'Varrock' || l.x < minX || l.x > maxX || l.z < minZ || l.z > maxZ) continue;
+        s.append(sv('rect', { x: X(l.x) - 2.5, y: Y(l.z) - 2.5, width: 5, height: 5, fill: '#fff', stroke: '#404040', 'stroke-width': 1.5 }));
+        if (botXY.some(([bx, by]) => Math.abs(bx - X(l.x)) < 60 && Math.abs(by - Y(l.z)) < 12)) continue;
+        const right = X(l.x) > W * 0.75;
+        s.append(sv('text', { x: X(l.x) + (right ? -6 : 6), y: Y(l.z) + 3, 'text-anchor': right ? 'end' : 'start', 'font-family': 'IBM Plex Mono, monospace', 'font-size': 10, fill: '#404040', stroke: '#fff', 'stroke-width': 3, 'paint-order': 'stroke' }, l.short ?? l.name));
+    }
+    snap.bots.forEach((b, i) => {
+        if (b.trail.length > 1) s.append(sv('polyline', { points: b.trail.map(p => `${X(p.x)},${Y(p.z)}`).join(' '), fill: 'none', stroke: '#000', 'stroke-width': 1.5, 'stroke-opacity': .35, 'stroke-dasharray': DASHES[i] || null, 'stroke-linejoin': 'round' }));
+    });
+    snap.bots.forEach((b, i) => {
+        if (!b.pos) return;
+        const x = X(b.pos.x), y = Y(b.pos.z), right = x > W * 0.75;
+        const g = sv('g');
+        g.append(marker(SHAPES[i], x, y, 6));
+        g.append(sv('text', { x: x + (right ? -10 : 10), y: y - 7, 'text-anchor': right ? 'end' : 'start', 'font-family': 'Inter, sans-serif', 'font-weight': 800, 'font-size': 12, fill: '#000', stroke: '#fff', 'stroke-width': 4, 'paint-order': 'stroke' }, b.name.toUpperCase()));
+        g.append(sv('title', {}, `${b.name}: ${b.location} (${b.pos.x}, ${b.pos.z})`));
+        s.append(g);
+    });
+    $('map').replaceChildren(s);
+}
+
+// ------------------------------------------------------------------ talk
+
+function renderTalk() {
+    const posts = snap.board.slice().reverse();
+    $('board').replaceChildren(...(posts.length ? posts.map(p => {
+        const d = el('div', { class: 'post' });
+        const meta = el('div', { class: 'meta' });
+        meta.append(el('b', {}, p.from), document.createTextNode(`${p.to === 'all' ? '' : '→ ' + p.to + ' · '}${ago(p.t)}`));
+        if (p.council) { meta.append(document.createTextNode(' ')); meta.append(el('span', { class: 'tag' }, `Council ${p.council}`)); }
+        d.append(meta, el('p', {}, p.text));
+        return d;
+    }) : [el('div', { class: 'empty' }, 'Nothing posted yet')]));
+    if (!snap.plan) { $('plan').replaceChildren(el('div', { class: 'empty' }, 'No council has met yet')); $('plan-note').textContent = ''; return; }
+    $('plan-note').textContent = `council ${snap.plan.council} · ${ago(snap.plan.made)} · ${snap.plan.agreed ? 'agreed' : 'no full agreement'}`;
+    $('plan').replaceChildren(...Object.entries(snap.plan.entries).map(([name, e]) => {
+        const r = el('div', { class: 'plan-row' });
+        r.append(el('b', {}, name), document.createTextNode(e.commitment));
+        if (e.asks.length) r.append(el('span', { class: 'asks' }, e.asks.map(a => `asks ${a.to}: ${a.what}`).join(' · ')));
+        return r;
+    }));
+}
+
+// ------------------------------------------------------------------ loop
+
+function renderGoal() {
+    const box = $('goal');
+    if (!box) return;
+    const g = snap.teamGoal;
+    if (!g?.mission) {
+        const empty = el('div', { class: 'head' });
+        empty.append(el('span', { class: 'label' }, 'Mission'), el('span', { class: 'meta' }, 'none yet: the next council chooses one'));
+        box.replaceChildren(empty);
+        return;
+    }
+    const head = el('div', { class: 'head' });
+    head.append(el('span', { class: 'label' }, 'Mission'), el('span', { class: 'title' }, g.title),
+        el('span', { class: 'meta' }, `proposed by ${g.proposedBy} · council ${g.council}${g.unanimous ? ' · unanimous' : ''} · ${ago(g.set)}`));
+    const vision = el('p', { class: 'vision' }, g.mission);
+    const steps = el('ol', { class: 'milestones' });
+    for (const m of g.milestones) {
+        const li = el('li', { class: m.done ? 'done' : null });
+        li.append(el('span', { class: 'check', 'aria-label': m.done ? 'done' : 'open' }, m.done ? '✓' : ''), el('span', { class: 'what' }, `M${m.id} ${m.what}`), el('span', { class: 'needs' }, `needs ${m.needs}`));
+        steps.append(li);
+    }
+    box.replaceChildren(head, vision, steps);
+}
+
+function renderFoot() {
+    if (!$('foot')) return;
+    $('foot').textContent = `Planner ${snap.spend.model} · ${snap.spend.calls} calls · $${snap.spend.usd.toFixed(3)} of a $${snap.spend.budgetUsd} cap · updated ${ago(snap.generatedAt)}.`;
+}
+
+// Each section renders on its own, so one failure (or a section removed from the page)
+// never blanks the rest.
+function render() {
+    for (const section of [renderStrip, renderRoster, renderGoal, renderSkills, renderMetrics, renderChart, renderLog, renderMap, renderTalk, renderFoot]) {
+        try { section(); } catch (e) { console.error(`${section.name} failed:`, e); }
+    }
+}
+
+async function tick() {
+    try {
+        snap = await (await fetch('snapshot.json?t=' + Date.now(), { cache: 'no-store' })).json();
+        render();
+    } catch (e) { console.error('snapshot fetch failed, keeping the last view:', e); }
+}
+let resizeTimer;
+window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => snap && renderChart(), 150); });
+tick();
+setInterval(tick, 15000);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.env
+data/
+rs-sdk/
+agents/runs/
+node_modules/
+agents/accounts.json
+agents/state/
+agents/public/shots/
+agents/public/map.png
+agents/public/snapshot.json
+agents/portraits/.build/
+agents/portraits/.hashes.json
+
+agents/public/portraits/
+
+agents/maintenance/__pycache__/
+
+# Machine-local metadata and private configuration
+.DS_Store
+.claude/scheduled_tasks.lock
+.env.*
+!.env.example
+agents/models.json

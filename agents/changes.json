@@ -1,0 +1,507 @@
+[
+    {
+        "t": "2026-10-20T20:01:08Z",
+        "name": "Wider skills, full death penalty",
+        "note": "Pickpocket, cook, firemake, fletch, smelt and smith added; dying loses tools again; live tools line; council re-plans when new actions appear."
+    },
+    {
+        "t": "2026-10-20T21:43:25Z",
+        "name": "Atlas and travel log",
+        "note": "Varrock east bank and both dark wizard spots in the atlas; every walk logged (safe, hurt, died, failed) and shown to everyone; travel action."
+    },
+    {
+        "t": "2026-10-20T23:32:23Z",
+        "name": "Mike as a maker, party facts",
+        "note": "Errands no longer a leaning; Mike rewritten towards crafting; live party facts (combat, coins, banks); travel refuses no-op trips; mission re-chosen."
+    },
+    {
+        "t": "2026-10-20T23:48:18Z",
+        "name": "Personal banks, clearer blocks",
+        "note": "Banks shown as personal; deposit a named item; blocker messages say what would work; repeated identical blocks flagged."
+    },
+    {
+        "t": "2026-10-21T00:07:49Z",
+        "name": "Routines",
+        "note": "Decisions are routines of 1-6 steps, optionally repeating; exhausted stop condition; steps stop the moment their goal is met."
+    },
+    {
+        "t": "2026-10-21T00:17:24Z",
+        "name": "Routine fixes",
+        "note": "Resume after interruptions; withdrawals unnoted by default with exact amounts; cooked fish bankable, burnt fish dropped."
+    },
+    {
+        "t": "2026-10-21T01:06:01Z",
+        "name": "Urgent-only interrupts",
+        "note": "Posts carry an urgent flag; only urgent posts to a teammate interrupt them, the rest wait for their next decision. Restarts no longer count as interruptions."
+    },
+    {
+        "t": "2026-10-21T01:26:08Z",
+        "name": "Gear, shops, 10-hour missions",
+        "note": "buy and equip actions; Varrock weapon, armour, archery and helmet shops from the wiki catalogue; crafted goods sell to specialty shops; barbarians, unicorns and guards to fight; worn gear shown; mission sessions see measured rates and size missions to ~10 hours."
+    },
+    {
+        "t": "2026-10-21T02:03:16Z",
+        "name": "F2P world index and lookup",
+        "note": "Skills (mine, chop, fish, fight, smelt, smith, cook, bank) work anywhere in the F2P world from a generated index; nearby options every turn; lookup answers where things are; Al Kharid toll gate paid automatically; Gerrant's fishing shop; dangers from game data."
+    },
+    {
+        "t": "2026-10-21T04:52:21Z",
+        "name": "Cooking, smithing and fleeing fixes",
+        "note": "Quest-locked Lumbridge castle range dropped from the index; smith uses the full product name (bronze dagger); resting or low-HP characters under attack run to Lumbridge; lookup matches whole words; banking at a town without a bank uses the nearest bank."
+    },
+    {
+        "t": "2026-10-21T05:10:50Z",
+        "name": "Aggression fix, watchdog",
+        "note": "Standard hunt mode (scorpions, hobgoblins, muggers, bears, rats) now counts as attacking on sight; mining and chopping skip spots where something would hunt the character; fleeing avoids the toll gate; level goals already met are reported plainly; smithing recipes listed; model-free watchdog."
+    },
+    {
+        "t": "2026-10-21T05:30:25Z",
+        "name": "Station fallback, bank contents on misses",
+        "note": "Cook, smelt and smith move on to the next station when one does nothing with usable materials (locked buildings) and remember it; a failed withdrawal lists what the bank holds; smith reports the game's reason."
+    },
+    {
+        "t": "2026-10-21T05:51:52Z",
+        "name": "Bank ownership facts",
+        "note": "Party facts label each bank as its owner's, say the bank is the same at every booth and deposits never reach a teammate's; the pooled total is labelled as a total across four separate banks."
+    },
+    {
+        "t": "2026-10-21T07:01:49Z",
+        "name": "Give direction facts",
+        "note": "give says it only moves items from your pack to a teammate; bank facts say items given to you arrive in your pack."
+    },
+    {
+        "t": "2026-10-21T07:17:25Z",
+        "name": "Equip duplicates, reflect length",
+        "note": "Equipping an item already worn says so instead of a misleading level failure; reflection gets 600 output tokens so notes stop being cut off."
+    },
+    {
+        "t": "2026-10-21T08:28:30Z",
+        "name": "Fight spot fallback",
+        "note": "fight counts attacks that start no fight as misses; after six it remembers the spot as unreachable (fenced pens) and moves to the next group."
+    },
+    {
+        "t": "2026-10-21T09:08:37Z",
+        "name": "Give block says direction",
+        "note": "A give of something you do not carry says giving only hands over what you carry and the teammate would have to give it."
+    },
+    {
+        "t": "2026-10-21T09:44:17Z",
+        "name": "Travel to where you are is done",
+        "note": "A travel step to the place you already are counts as arrived instead of blocking the routine's later steps."
+    },
+    {
+        "t": "2026-10-21T10:26:10Z",
+        "name": "Wait after instant blocks, resume after restarts",
+        "note": "A routine that blocks within 30 s waits up to 2 min for a delivery, a post, a pack change or an interrupt before the next model call; the running routine is saved each step and carried on after a party restart."
+    },
+    {
+        "t": "2026-10-21T10:48:32Z",
+        "name": "Deposits reported, quieter waits",
+        "note": "Step reports say what left the pack and where (e.g. 1 Bronze sword into your bank) instead of 'nothing gained'; waiting after a block ends only on urgent posts."
+    },
+    {
+        "t": "2026-10-21T11:05:09Z",
+        "name": "Bank notes move stacks",
+        "note": "Bank facts and the withdraw action say notes stack in one slot, can be given, and become ordinary items when the receiver deposits them (tested: noted withdraw, deposit, plain withdraw)."
+    },
+    {
+        "t": "2026-10-21T11:25:30Z",
+        "name": "Wants list, shared making",
+        "note": "Standing wants (item, amount, from whom) listed for everyone until delivered by give or dropped; Mike's bond no longer makes him the only maker; mission re-planned so making is not routed through one character."
+    },
+    {
+        "t": "2026-10-21T11:43:04Z",
+        "name": "Achievements ledger, $10 budget",
+        "note": "Firsts and marks detected from game data (items by tier, worn gear, skill/combat/total levels, first fight won per monster, coins), shown to the party and counted per hour; model budget raised to $10."
+    },
+    {
+        "t": "2026-10-21T11:55:19Z",
+        "name": "Wilderness open; achievements in councils",
+        "note": "Wilderness in the index and travel (runite, giants, dragons, demons); inside it aggressive monsters count as attacking everyone, so gathering avoids them; councils and mission sessions see unlocked and still-open achievements; the mission brief's example no longer casts Mike as the smelter."
+    },
+    {
+        "t": "2026-10-21T13:30:33Z",
+        "name": "Full-pack trades tell the receiver",
+        "note": "A give that fails for lack of space tells the receiver at their next decision that their pack was full, and tells the giver the slot count."
+    },
+    {
+        "t": "2026-10-21T15:08:32Z",
+        "name": "Toll gate on every route, giving notes",
+        "note": "Walks now spot the Al Kharid toll gate on paths made of corner waypoints (it was missed, so walks east stuck at the gate); give accepts \"X noted\" since notes carry the item's own name."
+    },
+    {
+        "t": "2026-10-21T16:09:29Z",
+        "name": "Blocks name what is there",
+        "note": "A bank step with nothing to deposit lists what the pack holds; travel to a name not in the atlas lists the closest atlas names."
+    },
+    {
+        "t": "2026-10-21T16:46:36Z",
+        "name": "Mid-step banking reported",
+        "note": "A gathering step whose pack filled says what it banked (e.g. 13 Copper ore into your bank), so a teammate's carried ore is not believed to still be in the pack."
+    },
+    {
+        "t": "2026-10-21T17:02:54Z",
+        "name": "Bars' worth in party facts; M1 counts goods",
+        "note": "Party facts add banked metal in bars' worth (bars plus smithed goods by the bars each takes); M1 reworded (with the user's approval) to count bronze goods as well as bars."
+    },
+    {
+        "t": "2026-10-21T17:18:51Z",
+        "name": "Gives hand over what fits",
+        "note": "A give of unstacked items larger than the receiver's free slots hands over as many as fit and says how many stayed behind; failures give the free-slot count instead of calling a 25/28 pack full."
+    },
+    {
+        "t": "2026-10-21T18:44:30Z",
+        "name": "How milestones get recorded",
+        "note": "The party is told a milestone is recorded done only in council, once two members list it in milestones_done; no action outside council records it."
+    },
+    {
+        "t": "2026-10-21T20:49:47Z",
+        "name": "Full-pack withdraw lists the pack",
+        "note": "A withdrawal blocked by a full pack lists what the pack holds, as bank misses already do."
+    },
+    {
+        "t": "2026-10-21T21:39:48Z",
+        "name": "Per-member rates, monster hitpoints in council",
+        "note": "Council and mission sessions see each member's XP per hour and where their time went; the open-monsters list gives each monster's hitpoints from the game data."
+    },
+    {
+        "t": "2026-10-21T22:23:22Z",
+        "name": "Steel and other smelting",
+        "note": "smelt handles silver, steel (1 iron ore + 2 coal, coal used on the furnace), gold and mithril, not just bronze and iron; 'steel' used to fall through to bronze and ask for copper. The description says bars are not re-smelted."
+    },
+    {
+        "t": "2026-10-21T22:42:18Z",
+        "name": "Anvils marked bad only for anvil faults",
+        "note": "A smithing failure from the recipe, level or bars no longer marks every anvil unusable ('no anvil known'); only an unreachable or unusable anvil is remembered. Wrongly marked anvils cleared."
+    },
+    {
+        "t": "2026-10-21T23:22:58Z",
+        "name": "Mining keeps swinging; steel coal count",
+        "note": "A mining click discarded while the last swing is still landing no longer counts as a miss (mining used to give up after a few ore at low levels and on slow rocks like coal, and wander to other mines); misses skip a rock that just refused; steel smelting stops cleanly under 2 coal. Tested: 26 copper in 86 s at Mining 10, was 4-8 then 'rejected'."
+    },
+    {
+        "t": "2026-10-22T00:34:30Z",
+        "name": "Toll block says coins carried",
+        "note": "The toll gate block says it costs 10 coins each way, how many are carried, and that banked coins can be withdrawn at any bank."
+    },
+    {
+        "t": "2026-10-22T01:14:47Z",
+        "name": "Toll fare from own bank",
+        "note": "Short of the 10-coin toll, a walk through the gate first withdraws coins from the character's own bank on that side (Mike was stuck in Al Kharid with 1 coin carried and 577 banked). Tested leaving Al Kharid with an empty purse."
+    },
+    {
+        "t": "2026-10-22T12:28:03Z",
+        "name": "Town banks avoid the toll",
+        "note": "Banking 'at Lumbridge' (no bank of its own) goes to the nearest bank reachable without the toll (Draynor) instead of Al Kharid's behind the gate; the receiver's trade log records the trade's actual result."
+    },
+    {
+        "t": "2026-10-22T14:28:05Z",
+        "name": "Gives cross the toll; cooked fish named",
+        "note": "A give walks to the receiver with the toll-paying walk (Wren could not reach Mike in Al Kharid: 'Player not found nearby'); cooking with only cooked fish says which fish are already cooked and that raw fish is named 'Raw ...'."
+    },
+    {
+        "t": "2026-10-22T14:39:59Z",
+        "name": "Checkable milestones",
+        "note": "The mission brief asks for milestones checkable from party facts (exact items, counts, who and where). With the user's approval, M2 now names steel weapons and 10 cooked fish each for two members, and M3 names Peksa's Helmet Shop or Gerrant's Fishy Business for the 500-coin trade run."
+    },
+    {
+        "t": "2026-10-22T14:47:51Z",
+        "name": "Furnaces marked bad only with full materials",
+        "note": "A smelt short of coal (mithril needs 4, steel 2) or holding notes no longer marks the furnace unusable; the Lumbridge and Falador furnaces had been marked, sending smelts to Al Kharid's behind the toll. Both cleared; Lumbridge furnace tested."
+    },
+    {
+        "t": "2026-10-22T14:51:55Z",
+        "name": "Unusable-spot marks: two strikes, 6-hour expiry",
+        "note": "Stations and fight spots are avoided only after failing on two separate occasions, and the mark lapses after 6 hours; ranges count as failed only with unnoted raw fish the character can cook; the watchdog reports every new mark. Existing marks were kept, with their clock starting now."
+    },
+    {
+        "t": "2026-10-22T15:28:14Z",
+        "name": "Finished milestones survive mission votes",
+        "note": "A new mission that restates a milestone the last one finished (75%+ of the same words) keeps it done; mission sessions are told finished milestones stay finished. The re-listed mithril milestone was restored to done."
+    },
+    {
+        "t": "2026-10-22T18:18:41Z",
+        "name": "Cooked fish labelled in party facts",
+        "note": "Bank rows, party totals and teammates' carried items mark cooked fish as cooked ('8803 Shrimps (cooked)'): Bram read the banked total as no cooked fish and idled on standby."
+    },
+    {
+        "t": "2026-10-22T18:27:56Z",
+        "name": "Teammates' routines visible",
+        "note": "Each teammate line shows the routine they are running and whether any step hands something to the reader ('no hand-off to you in it'): Trish and Bram rested for half an hour awaiting food that Wren's fish-cook-bank loop never delivers."
+    },
+    {
+        "t": "2026-10-22T18:50:07Z",
+        "name": "Milestones count what is held now; cooked label stripped from steps",
+        "note": "The party is told a milestone is judged on what banks, packs and gear hold now, whenever it was made (they treated M2's 120 cooked fish as still to produce despite ~11,900 banked). Step items named 'Shrimps (cooked)' from the new label are read as plain 'Shrimps'."
+    },
+    {
+        "t": "2026-10-22T19:15:48Z",
+        "name": "Withdraw 'cooked X'",
+        "note": "Withdrawing 'cooked shrimps' takes the bank's Shrimps (exact name, never Raw shrimps); it used to find nothing, which taught Mike and Wren that cooked fish could not be withdrawn and handed over. Tested."
+    },
+    {
+        "t": "2026-10-22T23:15:24Z",
+        "name": "Wants show holders; notes milestone",
+        "note": "Each want lists who holds the item, by bank and pack. With the user's approval, M1 replaced by moving 1,000 of one item between banks in a single noted hand-over (tested between two test accounts: 27 notes in one slot, traded, deposited)."
+    },
+    {
+        "t": "2026-10-22T23:29:43Z",
+        "name": "Hand-over record in party facts",
+        "note": "Every completed give is recorded (who, to whom, item, amount, when; seeded from past trades) and the party facts show the largest single hand-overs, so milestone claims about transfers can be checked. The largest so far is Bram's 3,013 noted copper ore to Mike."
+    },
+    {
+        "t": "2026-10-22T23:41:07Z",
+        "name": "Shops are travel destinations",
+        "note": "Travel and the closest-names hint know every shop by name (Wren's 'travel (Peksa's Helmet Shop)' found no place). Tested: the test character walked to Peksa's."
+    },
+    {
+        "t": "2026-10-23T00:30:24Z",
+        "name": "Withdraw misses name teammates' banks",
+        "note": "A withdrawal that finds nothing also lists teammates whose banks hold the item and that only they can withdraw and give it (Mike looked for iron ore in his own bank four times while Bram's holds 7,392). Tested."
+    },
+    {
+        "t": "2026-10-23T01:39:45Z",
+        "name": "Fishing gear blocks say where it's sold",
+        "note": "A fishing step missing its gear names the shop that sells it (fly fishing rod and feathers: Gerrant's Fishy Business); Wren tried lure fishing four times without them."
+    },
+    {
+        "t": "2026-10-23T02:43:25Z",
+        "name": "Fishing skips hunted spots",
+        "note": "Fishing goes to the nearest spot where nothing would hunt the character and blocks only if every spot of the kind is hunted; Wren in Al Kharid was blocked 7 times by the scorpions at the nearest net spot."
+    },
+    {
+        "t": "2026-10-23T06:50:44Z",
+        "name": "Bank-bones block says fight buries them",
+        "note": "Banking bones with none in the pack says fight buries the bones it gets as it goes (Trish's fight-then-bank-bones loop blocked 4 times)."
+    },
+    {
+        "t": "2026-10-23T09:16:11Z",
+        "name": "Sales record in party facts",
+        "note": "Every shop sale is recorded (who, shop, items, coins; seeded from past sales) and the party facts show coins earned per shop, so a milestone like '500 coins sold at Peksa's' can be checked: so far 0 at Peksa's, 1,343 at the Varrock Swordshop."
+    },
+    {
+        "t": "2026-10-23T13:58:36Z",
+        "name": "Coal, clay and gems bank",
+        "note": "Plain bank steps deposit coal, clay and uncut gems (and all cooked fish): Wren's pack was full with 22 loose coal the bank step never took, so 30 minutes of net fishing caught nothing. Tested."
+    },
+    {
+        "t": "2026-10-23T15:40:12Z",
+        "name": "Banked goods' worth in party facts",
+        "note": "Party facts list each member's five most valuable banked goods with the shop that pays most for each (e.g. Mike's 34 steel med helms at Peksa's, ~180 each), and that only the owner can withdraw and sell or give them. Nothing had been sold at Peksa's in 16 hours while the helms sat in Mike's bank and Wren, the assigned seller, had none."
+    },
+    {
+        "t": "2026-10-23T16:30:34Z",
+        "name": "Gives and travel check danger",
+        "note": "Gives eat or flee when attacked before and after walking to the receiver, and abandon the trade at low HP; travel eats or flees before setting off. Bram died (first death in ~30 h) fighting during a coal hand-over and then walking off hurt."
+    },
+    {
+        "t": "2026-10-23T19:00:12Z",
+        "name": "Milestones must be reachable",
+        "note": "With the user's approval, the mission brief says milestones must use the party's actions (no action crafts silver or gold items) and what shops really buy (Peksa's buys only helmets); a factual rescope replaced the impossible silver-items and daggers-at-Peksa's milestones."
+    },
+    {
+        "t": "2026-10-23T20:01:59Z",
+        "name": "Monster nudge",
+        "note": "With the user's approval: achievements for the first kill of a combat 25+, 50+ and 80+ monster; councils see the strongest monster the party has beaten and the next combat marks; the mission brief's examples include a combat vision."
+    },
+    {
+        "t": "2026-10-23T20:28:18Z",
+        "name": "Fight tactics cards",
+        "note": "Each character sets its own fight tactics (eat and retreat thresholds, finish-the-kill, target rule, combat style, bone looting), checked against a 15% HP floor and run by the fight loop every tick; fight steps report kills, damage taken and food eaten. Defaults reproduce the old fixed rules. Tested: default card 12 chickens; custom card aggressive (Strength XP), no loot, ate at 70%, retreated by its rule."
+    },
+    {
+        "t": "2026-10-24T00:31:29Z",
+        "name": "Danger check before every step",
+        "note": "Every step (not only fights, gives and travel) starts by eating or fleeing when under attack at low HP: Trish died walking hurt to her bank for food after a white knight fight."
+    },
+    {
+        "t": "2026-10-24T01:35:50Z",
+        "name": "General actions: look, interact, choose, use, pick_up",
+        "note": "Characters can look around (people, objects, ground items with their options), interact by name and option (talk, open doors, climb ladders and stairs), answer dialogue, use items on things and pick items up; dialogue is read out in step reports; quest completions become achievements. Tested: the test character finished Doric's Quest with these alone (+1,300 Mining, 180 coins). Smelt's missing-ore blocks name whose banks hold the ore."
+    },
+    {
+        "t": "2026-10-24T03:38:22Z",
+        "name": "Smelt fetches its partner ore",
+        "note": "A smelt carrying the main ore but not its partner fetches the partner from the character's own bank in the recipe's ratio (mithril 4 coal per ore). Mike blocked 8 times on 'mithril needs coal' with 689 coal in his own bank. Tested: 3 tin fetched, 3 bronze bars."
+    },
+    {
+        "t": "2026-10-24T12:35:19Z",
+        "name": "Hourly councils; idle rests last 10 minutes",
+        "note": "Councils every hour instead of every 30 minutes (mission re-vote every 5th council, still about every 5 hours). A rest at full health with no teammate's routine handing anything over runs 10 minutes instead of at most 5, so idle characters re-plan less often. Aim: lower decision and council cost per hour without changing what the party can do."
+    },
+    {
+        "t": "2026-10-24T13:55:00Z",
+        "name": "Items carry no origin; steel smelt counts coal",
+        "note": "The party and mission brief are told items of one name are identical and the game records no maker, time or source ore (council 195's 'documented fresh batch' milestones left Trish resting for an hour waiting to verify provenance). Smelting steel with under 2 coal, or mithril with 1-3 coal, now says so (ending an exhausted step as ran-out) instead of three idle passes reported as stuck; mithril tops its coal up from your own bank."
+    },
+    {
+        "t": "2026-10-24T16:50:00Z",
+        "name": "Plain milestones",
+        "note": "With the user's approval, M1-M3 reworded to drop 'documented fresh batch' / 'newly mined' provenance conditions, and the council's stale keep-separate commitments replaced. Council and mission prompts now ask for plain plans and milestones without unnecessary conditions."
+    },
+    {
+        "t": "2026-10-24T19:05:00Z",
+        "name": "No verification gate on M1",
+        "note": "My own M1 rewrite made Trish verify the banked helms, but she cannot open a teammate's bank, so she and Wren waited for hours while 73 steel med helms sat in Mike's bank. M1's chain is now Mike banks and hands 10 to Wren, who sells; Trish is freed for the M2 dagger test. Plan commitments reset to match."
+    },
+    {
+        "t": "2026-10-24T22:00:00Z",
+        "name": "Fight reports show monster level",
+        "note": "Fight reports add the monster's combat level and hitpoints beside your own combat level, from the game data. Trish spent about 3 hours picking white knights (level 38) to 'safely test' a dagger, losing 35-56 HP in two minutes each time and retreating."
+    },
+    {
+        "t": "2026-10-25T03:50:00Z",
+        "name": "Adamant smelt says it is unsupported",
+        "note": "Mike tried 'smelt (adamant)' repeatedly; the step read it as bronze and said 'no copper ore'. Targets naming adamant or rune now say smelt makes bronze, iron, silver, steel, gold or mithril bars only."
+    },
+    {
+        "t": "2026-10-25T11:30:00Z",
+        "name": "Achievements milestone and near-you line",
+        "note": "With the user's approval: every mission now carries one extra milestone, 'unlock 5 new achievements', recorded by the game's achievements ledger (no vote) and shown with progress. Every decision prompt gets a 'still open and near you' line: closest skill and combat marks, weakest never-defeated monsters, first items not yet held. The mission brief tells councils the milestone is added by itself. Current mission got the milestone added by hand."
+    },
+    {
+        "t": "2026-10-25T22:50:00Z",
+        "name": "Gives refuse to meet where the giver is hunted",
+        "note": "Wren died (death #4, 5,014 coins and her pack lost) retrying a food hand-off at Trish's fighting spot: attacks closed the trade screen three times. A give now stops before walking over if aggressive monsters there would hunt the giver, naming them and the giver's combat level, and saying attacks close the trade screen."
+    },
+    {
+        "t": "2026-10-26T11:40:00Z",
+        "name": "Dashboard picks a live tab after sleep",
+        "note": "After the computer slept, every bot's screenshot failed with a detached frame and redis reset its connection. When a bot's tab is replaced, the dashboard now tries each tab carrying its URL (newest first) and takes the first that still answers. The party was restarted to drop the stale connections."
+    },
+    {
+        "t": "2026-10-26T12:30:00Z",
+        "name": "Sleep-proofing",
+        "note": "With the user's approval after the machine slept: the orchestrator notices a clock jump over 90 s and exits non-zero so run.sh relaunches a clean party; run.sh holds the machine awake with caffeinate; the dashboard badge says Live only while game events arrive and screenshots are under 5 min old (and says which is missing); the watchdog flags a long gap since its own last run and a dashboard picture older than 15 min."
+    },
+    {
+        "t": "2026-10-26T12:50:00Z",
+        "name": "Budget cap $18",
+        "note": "With the user's say-so the model budget cap is $18 (was $10 in code; the README said $3). Spend so far about $7.8."
+    },
+    {
+        "t": "2026-10-26T13:20:00Z",
+        "name": "Adamant and rune smelting",
+        "note": "With the user's approval: smelt makes adamant (1 adamantite ore + 6 coal, Smithing 70) and rune (1 runite ore + 8 coal, Smithing 85) bars; coal is topped up from your own bank at those ratios; smith's notes list adamant +70 and rune +85. Replaces the 'unsupported' message. Unit-checked only; no live smelt (the test character cannot reach Smithing 70)."
+    },
+    {
+        "t": "2026-10-26T14:30:00Z",
+        "name": "Craft action: cut gems, gold jewellery",
+        "note": "With the user's approval: new craft action. 'cut gems' (chisel on uncut gems, Crafting levels opal 1 to diamond 43; some crush) and gold ring/necklace/amulet at a furnace from a gold bar, a mould and an optional cut gem. Dommik's Crafting Store (Al Kharid) added to the shops for moulds; chisels also sell at the Lumbridge general store. Live-tested on the test character: 3 opals cut (+45 Crafting), 2 gold rings made (+30). The new action triggers a council. Leather is not covered (needs the Al Kharid tanner)."
+    },
+    {
+        "t": "2026-10-26T15:30:00Z",
+        "name": "Cast action: combat spells",
+        "note": "With the user's approval: new cast action for Magic. 'wind strike on chicken' casts that spell at the nearest monster of the kind; naming only the monster picks the best spell the Magic level and carried runes allow. Strikes use a mind rune, bolts chaos, blasts death; a wielded elemental staff stands in for that rune. Aubury's Rune Shop (Varrock) added to the shops. Live-tested: 30 wind strikes at chickens gave +209 Magic xp; buying a mind rune at Aubury's worked. Enchanting is not included: no shop in reach sells cosmic runes."
+    },
+    {
+        "t": "2026-10-26T16:00:00Z",
+        "name": "Per-bot models (local / Kimi)",
+        "note": "With the user's approval: agents/models.json maps a bot to another OpenAI-compatible chat endpoint (baseUrl, model, optional apiKeyEnv and price per 1M tokens); it is read on every call, so a bot moves onto or off a model without a restart, and a failed call falls back to gpt-6-luna for that decision. Trish was moved onto a local 14B (qwen2.5:14b-instruct with a 20k context, run by Ollama) as an experiment; local calls cost nothing and do not touch the budget. Kimi works the same way with its base URL, a key in .env and a price."
+    },
+    {
+        "t": "2026-10-26T14:10:00Z",
+        "name": "Snapshot carries every achievement",
+        "note": "The dashboard and website snapshot now send the full achievements list (it was the last 80), so the website's level chart can draw the running unlock count and its achievements panel can list them all. Website PR 109."
+    },
+    {
+        "t": "2026-10-26T16:44:00Z",
+        "name": "Log a dropped game connection back in",
+        "note": "The server logs out a client that stops answering for about 200 s; the page then sat on \"Connection lost\" for good while the agent kept acting on its cached state (Mike was a ghost for about an hour from 11:42). The orchestrator now checks every 30 s and, when a character's game state is more than 90 s old, reloads its page (a fresh login on the same tab, at most once per 5 min), waits for state to flow and tells the character its connection dropped and it was logged in again."
+    },
+    {
+        "t": "2026-10-26T18:19:00Z",
+        "name": "Standing armour milestone",
+        "note": "With the user's request: every mission now carries a second standing milestone next to the achievements one, \"everyone wears armour: a helmet, body armour and leg armour each\". It is read from each character's worn items (slots hat, torso, legs) and ticked by the game, never by vote; the progress line in the plan says who still lacks what. A mission set before this gets the milestone added once at the next start-up, and the mission prompt tells proposers that both standing milestones come for free."
+    },
+    {
+        "t": "2026-10-26T19:48:57Z",
+        "name": "Clean lookup text; promise cohorts; Trish back to Luna",
+        "note": "At the user's request: Trish's local-model override removed so she uses GPT-6 Luna again. Shared lookup cleanup applies Unicode NFKC, removes invisible formatting characters and collapses whitespace before action, shop and want matching; it fixes the soft-hyphen studded-body purchase without fuzzy spelling guesses. Promise metrics match IDs per character, separate promises created in the reporting window from earlier promises resolved during it, and deduplicate events. Six regression tests and type checking pass. Website PR 116 adds separate earlier-promise rows and makes AGENT.md the shared guidance source, with AGENTS.md and CLAUDE.md aliases."
+    },
+    {
+        "t": "2026-10-26T20:14:59Z",
+        "name": "Routine preparation, fulfilled steps and bounded shop recovery",
+        "note": "At the user's request: check whole-routine known skill/wear requirements and spending before work; fetch missing usable tools/materials from own bank, fund tool purchases from banked coins, and bank surplus for space at step boundaries. Stop on unrepairable prerequisites, unchanged inventory or ten preparation actions. Wear/tool/smith/cook levels come from server configs. Already-worn equipment, reached skill goals and empty banking cleanups succeed. Shop opens retry once after resetting UI and position; purchases try at most one other known seller, with a five-minute cooldown for repeated failures. SDK exceptions now block rather than look like success. Regression tests cover preparation, real equipment/recipe levels, fulfilled steps, budget, capacity, no-progress and recovery bounds. Explicit withdrawals of items absent from known bank stock are rejected before traveling; deposit-then-withdraw plans remain valid. All 28 regression tests and type checking pass."
+    },
+    {
+        "t": "2026-10-26T20:52:06Z",
+        "name": "Automatic portraits and full surface map",
+        "note": "At the user's request: a separate renderer checks saved appearances every five minutes (PORTRAIT_EVERY_MS), re-renders only changes, and publishes head/body PNG pairs to Redis with a seven-day expiry. Snapshot appearance versions invalidate website image caches; bundled portraits remain a fallback. The renderer does not log in or interrupt gameplay. The basemap now covers the complete surface, including wilderness (x 1856\u20133648, z 2688\u20134032), and website map bounds follow current party positions and recent trails rather than old landmarks/roads."
+    },
+    {
+        "t": "2026-10-26T21:30:00Z",
+        "name": "Outfit refresh and all wear slots",
+        "note": "At the user's request, after all four converged on iron chainbody, iron platelegs and a bronze or iron med helm. The prompt now lists every wear slot and asks them to weigh function, appearance and individuality together and to differ from teammates. Thessalia's Fine Clothes (gloves, boots, cape) and Cassie's Shield Shop are in the shop catalogue. The mission running at start-up gets a one-off, game-checked milestone: each character wears a cape, shield, gloves or boots, and no two share the same helmet, body and legs. Deployed 2026-10-26 21:29-21:34Z by a clean stop (SIGTERM; all four logout saves written 21:29:44Z and unchanged for 2 min) then `bash agents/run.sh` relaunched in the background (pid 89447, log in the session scratchpad). The orchestrator added the milestone as M6 on the first council check and set plan.outfitAsked, so it will not be added to later missions (each new mission gets only the standing achievements and armour milestones). M5 is the standing armour milestone, already done. Committed locally on main afterwards (not pushed) in five commits, after reviewing all the earlier uncommitted work from other sessions (readiness preflight, shop recovery, lookup-text, promise metrics, portraits) and finding it coherent; tsc and the 30 tests pass. Next review: check that M6 progress moves (the plan line lists who has no cape, shield, gloves or boots and who matches a teammate) and what they bought at Thessalia's and Cassie's."
+    },
+    {
+        "t": "2026-10-26T22:45:24Z",
+        "name": "Reviewed screenshot capture and publication",
+        "note": "At the user's request: game canvas reads have timeouts, validate JPEG bytes, and recover the exact replaced bot tab in the same cycle. Offline/stale clients retain the last good image. Local files are atomic; website cache-busting timestamps advance only after Redis confirms the bytes were published. Three new regression tests pass. The website PR screenshot tool was separately made configurable and hardened around server ownership/ports, asset readiness, hidden focus panels, file names and cleanup."
+    },
+    {
+        "t": "2026-10-26T23:10:00Z",
+        "name": "Missions from a game-built menu",
+        "note": "At the user's request: the characters no longer invent missions, since they see the world only through a prompt. missions.ts builds a menu of up to five missions (Forge, Monster Hunters, Cooks' Table, Masters of Two Trades, Treasury) from live levels, gear, banks and the world index, dropping unreachable ones (more than 12 levels away) and finished ones. Every milestone has a Check evaluated by the game each council tick (stock, wear, kill, combat, skill, coins), never by vote or claim, and nothing ticks until all four characters have reported. The mission session now offers the menu, the characters vote (runoff if split) and then split the work; with fewer than two reachable missions it falls back to the old blind proposals. Eight tests in missions.test.ts. NOT deployed yet and the running mission is untouched: it takes effect at the next mission session after a restart (a rescope or every GOAL_EVERY councils). Committed code only; README.md and changes.json also hold another session's uncommitted notes, so they were left for that session to commit. Deployed 2026-10-26 23:50-23:57Z (two clean stops). Bug found on the first start: council.ts rebuilt the plan without outfitAsked, so the one-off outfit milestone was re-added at every council (M6, M7, M8 identical). Fixed by carrying the flag into the rebuilt plan and also skipping when an outfit milestone exists; the duplicates were removed from state/plan.json with the party stopped (backup in the session scratchpad) and the flag set. Screenshot hardening and the mission menu are live. The menu has not yet been exercised by a real mission session: it runs at the next mission session (every GOAL_EVERY councils), so watch for a council event with phase goal-menu."
+    },
+    {
+        "t": "2026-10-27T00:10:00Z",
+        "name": "Rotatable portraits",
+        "note": "At the user's request: heads and bodies can be expanded and turned through 360 degrees. render.ts now renders 16 views per figure (client yaw = angle * 128; angle 0 keeps the old file name, so `bram-head.png` is still the front), the manifest hash includes the angle count so every look re-renders once, needsPortrait requires all views, publishPortrait writes `portrait:<bot>:<kind>[:<angle>]` in one transaction, and snapshots carry `portraitAngles`. Tested by rendering all four, publishing to a throwaway local Redis and driving the website dev server in a browser (drag, slider, and the back view all worked). Website branch `feat/rascals-portrait-rotation` in ~/gh/tyler-barron-dot-com/tylerbarron-rr holds one commit (viewer component, `?a=` on the portrait route, tests); NOT pushed and no PR yet. NOT deployed on this side either: the running orchestrator still has the old watch.ts/publish.ts in memory, so it keeps publishing only the front view until the next restart (the render subprocess is already new code, so the files will exist on disk after the next 5-minute tick). Order to ship: open and merge the website PR first (pr-screenshots with --open on the portrait button), then restart the party so the new publisher writes the views. Until the website change is live, extra Redis keys are harmless. DEPLOYED 2026-10-27 00:10-00:14Z: the website change is merged to master (a6022ea), the party was stopped cleanly (saves 20:10:42 local, stable 110 s) and relaunched with run.sh (pid 55901). Verified in production Redis that bram, wren, mike and trish each hold all 32 views (16 head, 16 body) at their current version, and the snapshot reports portraitAngles 16. Caveat from the gap before this restart: the render subprocess had already written the new manifest (angles: 16) while the old in-memory publisher still pushed only the front view, so for a few minutes the snapshot claimed 16 views that Redis did not hold; the website falls back to a single frame if a view is missing, and it is now consistent."
+    },
+    {
+        "t": "2026-10-27T01:00:00Z",
+        "name": "Menu diagnostics and no repeats",
+        "note": "After the first review of the menu: templates now return a reason when they have nothing to offer; /menu.json on the dashboard lists the live menu with progress and why each template was or was not offered; a council that falls back to the characters' own proposals logs an error event goal-menu-short with those reasons; the last three mission titles are kept in plan.pastMissions (carried through the council's plan rebuild, as outfitAsked had to be) and not offered again; Masters of Two Trades no longer chases the Cooking and Fishing marks the Cooks' Table already uses. 42 tests pass. NOT deployed: needs a restart to load. Review findings that prompted it: council 263 closed M2 (steel stock was already there, so the iron detour was dropped) but nobody took M3 (the 30 steel med helms Mike holds need to reach Trish's bank, and Trish needs to wear one of the mithril daggers in her own bank) or M6 (only Mike has bought one extra piece, a cape); characters preferred personal skill marks. Mike also hit 'preparation limit reached' buying bait, with 7,279 coins banked: look at the coin-withdraw preparation."
+    },
+    {
+        "t": "2026-10-27T01:20:00Z",
+        "name": "Bait loop, closed-milestone council, milestone holdings",
+        "note": "At the user's request, after reviewing why the party chased personal marks and why Mike could not buy bait. (1) Bait: withdraw_from_bank capped the amount at the number of FREE SLOTS even for stackable items, so asking for 300 coins with 5 slots free fetched 5, and the readiness preparation repeated withdraw Coins ten times and gave up with 'preparation limit reached' (Mike had 7,279 coins banked). Fixed with isStackable (from the game's stackable=yes) and withdrawAmount in game-requirements.ts, which only caps non-stackable items by free slots; test added. A second, separate cause of Mike's bait trouble is NOT fixed: the walk to Gerrant's Fishy Business in Port Sarim often fails ('path stops 13 tiles short at (3047,3234), the rest is unroutable'), so he falls back to Draynor and net fishing; look at that route. (2) Why they looked selfish: not selfishness. At council 263 the open milestone with a per-person counter and individually doable work was M4 (5 new achievements), so the commitments were skill marks; M4 closed minutes later by the game ledger, but an auto-closed milestone told nobody, and they kept to 'the agreed' 30-minute plan. M3 (handoff of 30 steel med helms from Mike's bank to Trish's, Trish wearing a mithril dagger from her own bank) and M6 (outfit refresh, only Mike has bought a cape) were never assigned. Fixes, both facts and no advice: when the game closes a milestone the council now calls itself (it waits out the 15-minute minimum gap), with the closed milestone in the reason; and PARTY FACTS now carries 'who holds what the open milestones name' (milestone-holdings.ts) so a handoff gap is visible. Not done: M3 itself is untouched, and still needs the user's say-so before it is converted to a game-checked stock check. 45 tests pass."
+    },
+    {
+        "t": "2026-10-27T01:50:00Z",
+        "name": "Atlas places snapped to walkable tiles",
+        "note": "At the user's request: Mike's 'travel (Port Sarim)' always blocked with 'Path to (3047, 3221) stops 13 tiles short at (3047, 3234) - the rest is unroutable (locked door or separate room?)'. Not a door: the atlas label for Port Sarim sits in the sea, on a blocked tile, and the nearest tile reachable from Lumbridge is the north dock at (3047,3234), 33 tiles from the shops. Gerrant's shop tile (3014,3224) is reachable (14 waypoints from where he got stuck, 41 from the Draynor bank); buy and shop opens use the shop's own tile, so only `travel` and anything else using the place label failed. A survey of the offline collision data found 13 of the 41 atlas labels on blocked tiles (Lumbridge, Varrock, Falador, Market, Cooks' Guild, Dwarven Mine, Goblin Village, White Knights' Castle, Melzar's Maze, Bone Yard, River Lum, Tutorial Island, Port Sarim); the others were 1-6 tiles off, close enough for the walker's tolerance, which is why only Port Sarim failed. world-index/index.ts now moves each unwalkable label to the nearest tile reachable from Lumbridge (within 8 tiles), anchors Port Sarim by hand at Gerrant's (3014,3224), and leaves Tutorial Island alone (cut off from the mainland). places.test.ts guards it. The 'unroutable (locked door or separate room?)' hint in the SDK message is misleading for this case: when a destination tile itself is blocked, suspect the label. NOT deployed: needs a restart. The same routing hint should be checked when a similar error appears for any place not in the atlas."
+    },
+    {
+        "t": "2026-10-27T02:20:00Z",
+        "name": "Nineteen more shops",
+        "note": "At the user's request: the catalogue had 12 of the 56 shops the party can walk to from Lumbridge, so smithed scimitars, maces, battleaxes, platelegs, chainbodies and 2h swords, and every gem, had no buyer (a specialty shop buys only what it sells). Added from the wiki stock and the server's own NPC spawn positions: Zeke's scimitars, Louie's platelegs and Ranael's plateskirts (Al Kharid), the Gem Trader (Al Kharid), Brian's battleaxes, Grum's gold, Betty's runes and the Food Store (Port Sarim), Wayne's chains, Flynn's maces and Herquin's gems (Falador), the Fancy Clothes Store and Zaff's staffs (Varrock), Rommik's crafts (Rimmington), Gaius' two-handed swords (Taverley), and general stores at Falador, Rimmington, Al Kharid and Edgeville. 31 shops in all; the atlas grows from about 670 to 1,590 tokens per decision prompt. openSeller now breaks price ties by distance. shops.test.ts checks that every shop has stock, a unique name and a keeper tile reachable on foot, and that the goods above have a buyer. Left out on purpose: shops reached by stairs or ladders (Valaine's, Scavvo's, the underground pickaxe and mining shops), stalls (thieving targets, not trade), toy and cannon shops, and members or distant regions (Ardougne, Catherby, Fremennik, Yanille, Karamja, Canifis, Brimhaven). Deployed together with the atlas snap fix (c6b29a7) at the next restart."
+    },
+    {
+        "t": "2026-10-27T12:17:18Z",
+        "name": "Remember deterministic unavailable options",
+        "note": "User requested high-level fix #1 after overnight review found 50 absent-bronze-equipment withdrawal blocks. Commit fa7c346 adds bounded per-character persisted feasibility memory for own-bank absence, missing preparation materials, recognized equipment-level constraints and insufficient funds. Relevant stock/equipment/required levels/funding or a fresh bank observation invalidate matching entries; otherwise they expire after 15 minutes. At most 24 entries; suppressed attempts do not extend TTL. Planner sees explicit exclusions, preflight enforces before proposal side effects, execution checks step boundaries including resumed routines. Earlier acquisition/training is allowed; aggregate overspending does not ban individually affordable later purchases. Transient combat, shop and route failures are not cached. 81 tests and tsc pass. Deployed with graceful stop, all four saves confirmed fresh, then run.sh at 08:17 EDT (run 2026-10-27T12-17-15-082Z); four bots ready with pre-restart levels retained, no errors through 08:18 EDT. No natural new blocker/suppression in that initial window: recurrence prevention is regression-tested, not yet measured on a live repeat. No mission or manual state changes. Remaining coordination/delivery/monitoring fixes are not implemented."
+    },
+    {
+        "t": "2026-10-27T13:52:40Z",
+        "name": "Everyday outfit preference and portrait diagnosis",
+        "note": "User saw unarmoured small website portraits. Latest saves showed Bram/Wren/Mike fully armoured and Trish restoring gear after a death, not repeated deliberate unequipping. Production browser showed all eight small portraits requesting retired Redis URLs, getting 404s and falling back to old bundled art: Roster was not passing assetBase to Portrait. Website PR #125 fixes both child props; three SSR cases and all CI pass; local mirrored assets render current armour. PR not merged by this session. Runtime cb96428 adds a standing preference to keep chosen outfits on during ordinary work, and a quiet fresh-state reminder for empty core slots at normal decisions. No forced equip, buying, interrupt or matching set. Four pure tests and tsc pass. Graceful restart verified fresh saves; new run 2026-10-27T13-52-37-473Z reports cb96428, all four ready with preserved levels 387/398/417/498 and no startup errors. Existing mission and inventories were not manually changed."
+    },
+    {
+        "t": "2026-10-27T14:51:02.493000Z",
+        "name": "Validated mission opportunities and stable ownership",
+        "note": "User authorized the morning review improvements. Code eacf7b2/2f091c2/d47d329/7fec99f adds 27 parameterized templates, supported production-chain checks, a diverse shortlist capped at five with fact-driven/five-minute fallback refresh, fresh selection validation, stable variant cooldown keys and mission continuity. Structural rescope retains unfinished goals in plan.retiredMissions. Council milestone_ids and plan.coverage provide ownership/next work/fallback; normal council counters no longer replace missions. Fishing/smelting definitions are shared with execution; supply batches replenish within long orders; named cooking and explicit cooked-food deliveries avoid recipe/name ambiguity. Generic material blocker fingerprints track actual patterns and usable levels. 112 tests, tsc and diff checks pass. Final run 2026-10-27T14-50-59-244Z loads 7fec99f after verified fresh saves. Council #284 selected Smithing Workshop; the unsupported swordfish mission was retired with its checks/reason intact. Mike owns Smithing 70 and withdrew steel bars; Wren owns achievements; Trish restored a helmet and automatic armour check closed M3. No runtime errors through the deployment review. Trade handshake and monitoring/log provenance remain separate future work. No manual inventory/goal-state edits."
+    },
+    {
+        "t": "2026-10-27T18:52:43Z",
+        "name": "Smithing reach and door recovery",
+        "note": "Reproduced the Smithing interface timeout with a separate test character outside the closed Rimmington smithy. Smithing now uses the item-on-location helper, propagates reach failures, and records the observed modal on interface timeouts. Door recovery repositions at most once so an adjacent tile outside a wall cannot starve opening the door. Closed-door live test created a steel med helm and gained 37 Smithing XP. SDK regression and agent mission checks passed; controlled reload follows. Previously pending fishing/workshop sources will also load."
+    },
+    {
+        "t": "2026-10-27T21:09:01Z",
+        "name": "Durable supervision and productive execution",
+        "note": "User-approved post-Smithing fixes loaded under macOS LaunchAgent com.trb.runscape-rascals. Adds separate supervisor/controller heartbeats, exit diagnostics, singleton ownership and verified-save recovery. Productive time budgets yield instead of stale; available crafting supplies replenish between passes and material-limited output is partial. Withdrawals reserve current recipe batches and report requested/batch/received quantities without lowering final goals. Complete personal production is probed before adding shared-bank handoffs, with reservation/budget rollback on failure. All 122 agent tests and TypeScript check pass. Legacy orphan browsers closed with backups and all fresh saves verified. New live run 2026-10-27T21-04-26-143Z; all four active, fresh heartbeats, first bounded withdrawal observed."
+    },
+    {
+        "t": "2026-10-27T23:13:06Z",
+        "name": "Factual workshop XP comparisons",
+        "note": "User asked for casual encouragement toward better XP methods. Normal decisions/councils/reflections now show eligible smithing metals ranked by base XP/bar, own bank bars and smeltable ore/coal with observation age, batch/travel facts and the next locked metal tier. Game configs provide XP/levels; no forced recipes or mission edits. 55 focused checks and agent typecheck passed. Graceful reload verified fresh saves; new run 2026-10-27T23-12-15-140Z under existing launchd supervisor. Recipe choice change remains to be observed."
+    },
+    {
+        "t": "2026-10-28T00:45:40Z",
+        "name": "Evidence-based iron smelting reports",
+        "note": "Confirmed ordinary 50% iron impurity losses were being misreported as stuck after three no-output passes. Smelting now reports observed resolved attempts, actual bars, confirmed consumed inputs, expected losses and reach failures separately. Fresh server messages are deduplicated; player chat and missing XP alone are not evidence. Ten consecutive losses yield with the target unfinished; real reach/level blockers retain their outcomes. Summaries avoid net-inventory consumption errors after resupply. 178 tests and typecheck passed; separate live fixture matched 10 ore consumed, 3 bars, 7 losses and 37 XP. Graceful reload verified all fresh party saves; run 2026-10-28T00-44-24-660Z under existing supervisor."
+    }
+]

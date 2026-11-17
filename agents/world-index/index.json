@@ -1,0 +1,7674 @@
+{
+ "built": "2026-10-27T15:22:50.034Z",
+ "scope": "F2P, ground floor, wilderness included",
+ "places": [
+  {
+   "name": "Lumbridge",
+   "x": 3239,
+   "z": 3233,
+   "size": 1
+  },
+  {
+   "name": "Varrock",
+   "x": 3211,
+   "z": 3450,
+   "size": 1
+  },
+  {
+   "name": "Al Kharid",
+   "x": 3297,
+   "z": 3150,
+   "size": 1
+  },
+  {
+   "name": "Shantay Pass",
+   "x": 3304,
+   "z": 3126,
+   "size": 0
+  },
+  {
+   "name": "Toll Gate",
+   "x": 3278,
+   "z": 3227,
+   "size": 0
+  },
+  {
+   "name": "Tutorial Island",
+   "x": 3105,
+   "z": 3099,
+   "size": 1
+  },
+  {
+   "name": "Port Sarim",
+   "x": 3047,
+   "z": 3221,
+   "size": 1
+  },
+  {
+   "name": "Falador",
+   "x": 2989,
+   "z": 3355,
+   "size": 1
+  },
+  {
+   "name": "Edgeville",
+   "x": 3098,
+   "z": 3488,
+   "size": 1
+  },
+  {
+   "name": "Draynor Village",
+   "x": 3120,
+   "z": 3267,
+   "size": 1
+  },
+  {
+   "name": "Jail",
+   "x": 3126,
+   "z": 3244,
+   "size": 0
+  },
+  {
+   "name": "Market",
+   "x": 3090,
+   "z": 3252,
+   "size": 0
+  },
+  {
+   "name": "Draynor Manor",
+   "x": 3108,
+   "z": 3345,
+   "size": 1
+  },
+  {
+   "name": "Barbarian Village",
+   "x": 3063,
+   "z": 3416,
+   "size": 1
+  },
+  {
+   "name": "Lumber Yard",
+   "x": 3308,
+   "z": 3507,
+   "size": 0
+  },
+  {
+   "name": "Palace",
+   "x": 3213,
+   "z": 3483,
+   "size": 0
+  },
+  {
+   "name": "Cooks' Guild",
+   "x": 3137,
+   "z": 3437,
+   "size": 0
+  },
+  {
+   "name": "Monastery",
+   "x": 3052,
+   "z": 3477,
+   "size": 0
+  },
+  {
+   "name": "Dwarven Mine",
+   "x": 3016,
+   "z": 3441,
+   "size": 0
+  },
+  {
+   "name": "Ice Mountain",
+   "x": 3009,
+   "z": 3487,
+   "size": 1
+  },
+  {
+   "name": "Black Knights' Fortress",
+   "x": 3018,
+   "z": 3522,
+   "size": 0
+  },
+  {
+   "name": "Goblin Village",
+   "x": 2963,
+   "z": 3502,
+   "size": 0
+  },
+  {
+   "name": "White Knights' Castle",
+   "x": 2961,
+   "z": 3345,
+   "size": 0
+  },
+  {
+   "name": "Park",
+   "x": 3005,
+   "z": 3379,
+   "size": 0
+  },
+  {
+   "name": "Melzar's Maze",
+   "x": 2931,
+   "z": 3248,
+   "size": 0
+  },
+  {
+   "name": "Rimmington",
+   "x": 2960,
+   "z": 3222,
+   "size": 0
+  },
+  {
+   "name": "Wizards' Tower",
+   "x": 3112,
+   "z": 3153,
+   "size": 0
+  },
+  {
+   "name": "Lumbridge Swamp",
+   "x": 3195,
+   "z": 3183,
+   "size": 0
+  },
+  {
+   "name": "Chaos Temple",
+   "x": 3238,
+   "z": 3610,
+   "size": 0
+  },
+  {
+   "name": "Graveyard of Shadows",
+   "x": 3167,
+   "z": 3673,
+   "size": 0
+  },
+  {
+   "name": "Bandit Camp",
+   "x": 3036,
+   "z": 3689,
+   "size": 0
+  },
+  {
+   "name": "Dark Knight Fortress",
+   "x": 3030,
+   "z": 3633,
+   "size": 0
+  },
+  {
+   "name": "Ruins",
+   "x": 2966,
+   "z": 3697,
+   "size": 0
+  },
+  {
+   "name": "The Forgotten Cemetery",
+   "x": 2977,
+   "z": 3753,
+   "size": 0
+  },
+  {
+   "name": "Ruins",
+   "x": 3164,
+   "z": 3735,
+   "size": 0
+  },
+  {
+   "name": "Bone Yard",
+   "x": 3246,
+   "z": 3746,
+   "size": 0
+  },
+  {
+   "name": "Lava Maze",
+   "x": 3079,
+   "z": 3848,
+   "size": 0
+  },
+  {
+   "name": "Demonic Ruins",
+   "x": 3293,
+   "z": 3884,
+   "size": 0
+  },
+  {
+   "name": "River Lum",
+   "x": 3167,
+   "z": 3350,
+   "size": 0
+  },
+  {
+   "name": "Champions' Guild",
+   "x": 3201,
+   "z": 3354,
+   "size": 0
+  },
+  {
+   "name": "Crafting Guild",
+   "x": 2921,
+   "z": 3282,
+   "size": 0
+  }
+ ],
+ "spots": [
+  {
+   "kind": "anvil",
+   "type": "anvil",
+   "x": 2991,
+   "z": 3689,
+   "count": 1,
+   "near": "Ruins"
+  },
+  {
+   "kind": "anvil",
+   "type": "anvil",
+   "x": 2999,
+   "z": 3144,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "anvil",
+   "type": "anvil",
+   "x": 3188,
+   "z": 3424,
+   "count": 3,
+   "near": "Varrock smithy"
+  },
+  {
+   "kind": "anvil",
+   "type": "anvil",
+   "x": 3229,
+   "z": 3438,
+   "count": 4,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "anvil",
+   "type": "anvil",
+   "x": 3247,
+   "z": 3404,
+   "count": 2,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 2947,
+   "z": 3367,
+   "count": 5,
+   "near": "Falador"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3013,
+   "z": 3354,
+   "count": 5,
+   "near": "Falador"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3091,
+   "z": 3243,
+   "count": 3,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3096,
+   "z": 3492,
+   "count": 4,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3186,
+   "z": 3441,
+   "count": 6,
+   "near": "Varrock west bank"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3254,
+   "z": 3419,
+   "count": 4,
+   "near": "Varrock east bank"
+  },
+  {
+   "kind": "bank",
+   "type": "bank",
+   "x": 3268,
+   "z": 3167,
+   "count": 5,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "fishing",
+   "type": "cage/harpoon",
+   "x": 2925,
+   "z": 3180,
+   "count": 3,
+   "via": "Karamja",
+   "near": "Musa Point (Karamja)"
+  },
+  {
+   "kind": "fishing",
+   "type": "lure/bait",
+   "x": 3107,
+   "z": 3429,
+   "count": 2,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "fishing",
+   "type": "lure/bait",
+   "x": 3238,
+   "z": 3252,
+   "count": 2,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 2986,
+   "z": 3176,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 2996,
+   "z": 3158,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 3050,
+   "z": 3704,
+   "count": 1,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 3086,
+   "z": 3229,
+   "count": 2,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 3267,
+   "z": 3148,
+   "count": 1,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "fishing",
+   "type": "net/bait",
+   "x": 3276,
+   "z": 3140,
+   "count": 1,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "furnace",
+   "type": "furnace",
+   "x": 2975,
+   "z": 3368,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "furnace",
+   "type": "furnace",
+   "x": 3144,
+   "z": 3735,
+   "count": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "furnace",
+   "type": "furnace",
+   "x": 3226,
+   "z": 3256,
+   "count": 2,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "furnace",
+   "type": "furnace",
+   "x": 3273,
+   "z": 3185,
+   "count": 2,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "al-kharid warrior",
+   "x": 3288,
+   "z": 3171,
+   "count": 6,
+   "level": 9,
+   "hp": 19,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "al-kharid warrior",
+   "x": 3301,
+   "z": 3174,
+   "count": 3,
+   "level": 9,
+   "hp": 19,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "bandit",
+   "x": 3034,
+   "z": 3701,
+   "count": 4,
+   "level": 22,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "bandit",
+   "x": 3034,
+   "z": 3684,
+   "count": 2,
+   "level": 22,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian",
+   "x": 3080,
+   "z": 3415,
+   "count": 5,
+   "level": 7,
+   "hp": 14,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian",
+   "x": 3081,
+   "z": 3438,
+   "count": 6,
+   "level": 7,
+   "hp": 14,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian",
+   "x": 3096,
+   "z": 3432,
+   "count": 1,
+   "level": 7,
+   "hp": 14,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian woman",
+   "x": 3077,
+   "z": 3443,
+   "count": 2,
+   "level": 8,
+   "hp": 14,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian woman",
+   "x": 3082,
+   "z": 3422,
+   "count": 3,
+   "level": 8,
+   "hp": 14,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "monster",
+   "type": "barbarian woman",
+   "x": 3225,
+   "z": 3395,
+   "count": 1,
+   "level": 8,
+   "hp": 14,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 2966,
+   "z": 3473,
+   "count": 3,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 2979,
+   "z": 3501,
+   "count": 1,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 2988,
+   "z": 3671,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3001,
+   "z": 3674,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3098,
+   "z": 3652,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3100,
+   "z": 3598,
+   "count": 2,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3106,
+   "z": 3677,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3107,
+   "z": 3608,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3110,
+   "z": 3664,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3119,
+   "z": 3673,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3120,
+   "z": 3653,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3125,
+   "z": 3693,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3150,
+   "z": 3507,
+   "count": 1,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3159,
+   "z": 3233,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3162,
+   "z": 3514,
+   "count": 1,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3176,
+   "z": 3223,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3230,
+   "z": 3500,
+   "count": 1,
+   "level": 21,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "bear",
+   "x": 3296,
+   "z": 3347,
+   "count": 1,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "monster",
+   "type": "black heather",
+   "x": 3039,
+   "z": 3700,
+   "count": 1,
+   "level": 34,
+   "hp": 37,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3019,
+   "z": 3182,
+   "count": 1,
+   "level": 33,
+   "hp": 42,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3026,
+   "z": 3515,
+   "count": 5,
+   "level": 33,
+   "hp": 42,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3031,
+   "z": 3502,
+   "count": 3,
+   "level": 33,
+   "hp": 42,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3101,
+   "z": 3220,
+   "count": 1,
+   "level": 33,
+   "hp": 42,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3230,
+   "z": 3517,
+   "count": 2,
+   "level": 33,
+   "hp": 42,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3277,
+   "z": 3505,
+   "count": 1,
+   "level": 33,
+   "hp": 42,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "black knight",
+   "x": 3312,
+   "z": 3769,
+   "count": 2,
+   "level": 33,
+   "hp": 42,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "black unicorn",
+   "x": 3216,
+   "z": 3677,
+   "count": 8,
+   "level": 27,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "black unicorn",
+   "x": 3241,
+   "z": 3670,
+   "count": 4,
+   "level": 27,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "chaos dwarf",
+   "x": 3021,
+   "z": 3761,
+   "count": 4,
+   "level": 48,
+   "hp": 61,
+   "aggressive": true,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "chaos dwarf",
+   "x": 3233,
+   "z": 3783,
+   "count": 1,
+   "level": 48,
+   "hp": 61,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "chaos dwarf",
+   "x": 3241,
+   "z": 3796,
+   "count": 1,
+   "level": 48,
+   "hp": 61,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "chaos dwarf",
+   "x": 3253,
+   "z": 3782,
+   "count": 1,
+   "level": 48,
+   "hp": 61,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "chicken",
+   "x": 2966,
+   "z": 3346,
+   "count": 1,
+   "level": 1,
+   "hp": 3,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "monster",
+   "type": "chicken",
+   "x": 3017,
+   "z": 3289,
+   "count": 6,
+   "level": 1,
+   "hp": 3,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "chicken",
+   "x": 3188,
+   "z": 3278,
+   "count": 5,
+   "level": 1,
+   "hp": 3,
+   "near": "Lumbridge"
+  },
+  {
+   "kind": "monster",
+   "type": "chicken",
+   "x": 3197,
+   "z": 3353,
+   "count": 5,
+   "level": 1,
+   "hp": 3,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "chicken",
+   "x": 3230,
+   "z": 3299,
+   "count": 9,
+   "level": 1,
+   "hp": 3,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 2922,
+   "z": 3285,
+   "count": 6,
+   "level": 2,
+   "hp": 8,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3032,
+   "z": 3306,
+   "count": 7,
+   "level": 2,
+   "hp": 8,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3156,
+   "z": 3342,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "River Lum"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3157,
+   "z": 3322,
+   "count": 2,
+   "level": 2,
+   "hp": 8,
+   "near": "River Lum"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3178,
+   "z": 3326,
+   "count": 2,
+   "level": 2,
+   "hp": 8,
+   "near": "River Lum"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3197,
+   "z": 3326,
+   "count": 2,
+   "level": 2,
+   "hp": 8,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3248,
+   "z": 3290,
+   "count": 4,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge cow field"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3258,
+   "z": 3274,
+   "count": 2,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge cow field"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3258,
+   "z": 3259,
+   "count": 3,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "cow",
+   "x": 3261,
+   "z": 3292,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge cow field"
+  },
+  {
+   "kind": "monster",
+   "type": "dark warrior",
+   "x": 3029,
+   "z": 3639,
+   "count": 3,
+   "level": 8,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "dark warrior",
+   "x": 3031,
+   "z": 3627,
+   "count": 4,
+   "level": 8,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "dark wizard",
+   "x": 2980,
+   "z": 3571,
+   "count": 5,
+   "level": 7,
+   "hp": 12,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "dark wizard",
+   "x": 2985,
+   "z": 3565,
+   "count": 3,
+   "level": 20,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "dark wizard",
+   "x": 3085,
+   "z": 3237,
+   "count": 2,
+   "level": 7,
+   "hp": 12,
+   "aggressive": true,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "monster",
+   "type": "dark wizard",
+   "x": 3227,
+   "z": 3369,
+   "count": 9,
+   "level": 7,
+   "hp": 12,
+   "aggressive": true,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "dark wizard",
+   "x": 3228,
+   "z": 3370,
+   "count": 2,
+   "level": 20,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3047,
+   "z": 3883,
+   "count": 6,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3051,
+   "z": 3871,
+   "count": 2,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3055,
+   "z": 3897,
+   "count": 4,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3069,
+   "z": 3896,
+   "count": 2,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3147,
+   "z": 3732,
+   "count": 2,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3154,
+   "z": 3742,
+   "count": 2,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3171,
+   "z": 3736,
+   "count": 5,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "deadly red spider",
+   "x": 3183,
+   "z": 3743,
+   "count": 2,
+   "level": 34,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "delrith",
+   "x": 3229,
+   "z": 3369,
+   "count": 1,
+   "level": 27,
+   "hp": 7,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "donny the lad",
+   "x": 3038,
+   "z": 3695,
+   "count": 1,
+   "level": 34,
+   "hp": 37,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "duck",
+   "x": 3220,
+   "z": 3285,
+   "count": 4,
+   "level": 1,
+   "hp": 3,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "duck",
+   "x": 3240,
+   "z": 3236,
+   "count": 7,
+   "level": 1,
+   "hp": 3,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "duck",
+   "x": 3259,
+   "z": 3212,
+   "count": 1,
+   "level": 1,
+   "hp": 3,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 2999,
+   "z": 3449,
+   "count": 2,
+   "level": 10,
+   "hp": 16,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 3012,
+   "z": 3459,
+   "count": 2,
+   "level": 10,
+   "hp": 16,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 3015,
+   "z": 3436,
+   "count": 3,
+   "level": 10,
+   "hp": 16,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 3016,
+   "z": 3335,
+   "count": 2,
+   "level": 10,
+   "hp": 16,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 3021,
+   "z": 3450,
+   "count": 7,
+   "level": 10,
+   "hp": 16,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "dwarf",
+   "x": 3025,
+   "z": 3347,
+   "count": 1,
+   "level": 10,
+   "hp": 16,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3035,
+   "z": 3296,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Market"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3154,
+   "z": 3293,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3165,
+   "z": 3324,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "River Lum"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3227,
+   "z": 3290,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3233,
+   "z": 3308,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3240,
+   "z": 3345,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "farmer",
+   "x": 3262,
+   "z": 3325,
+   "count": 1,
+   "level": 7,
+   "hp": 12,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "fortress guard",
+   "x": 3015,
+   "z": 3515,
+   "count": 6,
+   "level": 20,
+   "hp": 22,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "gardener",
+   "x": 2996,
+   "z": 3381,
+   "count": 1,
+   "level": 3,
+   "hp": 7,
+   "near": "Park"
+  },
+  {
+   "kind": "monster",
+   "type": "gardener",
+   "x": 3012,
+   "z": 3372,
+   "count": 1,
+   "level": 3,
+   "hp": 7,
+   "near": "Park"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 2966,
+   "z": 3755,
+   "count": 3,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 2987,
+   "z": 3755,
+   "count": 3,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 3092,
+   "z": 3697,
+   "count": 3,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 3109,
+   "z": 3693,
+   "count": 2,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 3278,
+   "z": 3661,
+   "count": 4,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "ghost",
+   "x": 3289,
+   "z": 3652,
+   "count": 2,
+   "level": 19,
+   "hp": 25,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "giant",
+   "x": 3300,
+   "z": 3649,
+   "count": 1,
+   "level": 28,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "giant",
+   "x": 3308,
+   "z": 3661,
+   "count": 1,
+   "level": 28,
+   "hp": 35,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 2928,
+   "z": 3244,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 2931,
+   "z": 3251,
+   "count": 6,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 2967,
+   "z": 3688,
+   "count": 3,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 2972,
+   "z": 3696,
+   "count": 3,
+   "level": 3,
+   "hp": 5,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 2997,
+   "z": 3193,
+   "count": 2,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3049,
+   "z": 3695,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3049,
+   "z": 3691,
+   "count": 1,
+   "level": 3,
+   "hp": 5,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3195,
+   "z": 3205,
+   "count": 4,
+   "level": 3,
+   "hp": 5,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3203,
+   "z": 3175,
+   "count": 2,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Lumbridge Swamp"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3213,
+   "z": 3185,
+   "count": 4,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3215,
+   "z": 3172,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Lumbridge Swamp"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3227,
+   "z": 3533,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3232,
+   "z": 3548,
+   "count": 2,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3247,
+   "z": 3529,
+   "count": 2,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3248,
+   "z": 3553,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3256,
+   "z": 3541,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3265,
+   "z": 3382,
+   "count": 2,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "monster",
+   "type": "giant rat",
+   "x": 3292,
+   "z": 3377,
+   "count": 1,
+   "level": 6,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 2989,
+   "z": 3685,
+   "count": 5,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3075,
+   "z": 3366,
+   "count": 1,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3135,
+   "z": 3340,
+   "count": 1,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3147,
+   "z": 3480,
+   "count": 3,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3167,
+   "z": 3887,
+   "count": 10,
+   "level": 27,
+   "hp": 32,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3168,
+   "z": 3246,
+   "count": 5,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3179,
+   "z": 3882,
+   "count": 2,
+   "level": 27,
+   "hp": 32,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3202,
+   "z": 3239,
+   "count": 2,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "monster",
+   "type": "giant spider",
+   "x": 3244,
+   "z": 3234,
+   "count": 2,
+   "level": 2,
+   "hp": 5,
+   "aggressive": true,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 2954,
+   "z": 3486,
+   "count": 7,
+   "level": 5,
+   "hp": 12,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 2956,
+   "z": 3504,
+   "count": 13,
+   "level": 5,
+   "hp": 12,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 2963,
+   "z": 3514,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3000,
+   "z": 3207,
+   "count": 12,
+   "level": 2,
+   "hp": 5,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3110,
+   "z": 3281,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3114,
+   "z": 3310,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3122,
+   "z": 3428,
+   "count": 3,
+   "level": 5,
+   "hp": 12,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3123,
+   "z": 3447,
+   "count": 2,
+   "level": 5,
+   "hp": 12,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3142,
+   "z": 3297,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3143,
+   "z": 3260,
+   "count": 5,
+   "level": 2,
+   "hp": 5,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3144,
+   "z": 3231,
+   "count": 6,
+   "level": 2,
+   "hp": 5,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3162,
+   "z": 3277,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3170,
+   "z": 3205,
+   "count": 2,
+   "level": 5,
+   "hp": 12,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3185,
+   "z": 3245,
+   "count": 6,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3204,
+   "z": 3253,
+   "count": 2,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3216,
+   "z": 3277,
+   "count": 2,
+   "level": 5,
+   "hp": 12,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3224,
+   "z": 3262,
+   "count": 1,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3251,
+   "z": 3245,
+   "count": 13,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3257,
+   "z": 3229,
+   "count": 7,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3259,
+   "z": 3338,
+   "count": 1,
+   "level": 5,
+   "hp": 12,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "monster",
+   "type": "goblin",
+   "x": 3262,
+   "z": 3218,
+   "count": 1,
+   "level": 2,
+   "hp": 5,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "monster",
+   "type": "greater demon",
+   "x": 3282,
+   "z": 3880,
+   "count": 1,
+   "level": 92,
+   "hp": 87,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "greater demon",
+   "x": 3287,
+   "z": 3894,
+   "count": 1,
+   "level": 92,
+   "hp": 87,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "greater demon",
+   "x": 3296,
+   "z": 3872,
+   "count": 1,
+   "level": 92,
+   "hp": 87,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "greater demon",
+   "x": 3304,
+   "z": 3886,
+   "count": 1,
+   "level": 92,
+   "hp": 87,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "green dragon",
+   "x": 3078,
+   "z": 3810,
+   "count": 1,
+   "level": 79,
+   "hp": 75,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "green dragon",
+   "x": 3092,
+   "z": 3810,
+   "count": 1,
+   "level": 79,
+   "hp": 75,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "green dragon",
+   "x": 3098,
+   "z": 3821,
+   "count": 1,
+   "level": 79,
+   "hp": 75,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "green dragon",
+   "x": 3107,
+   "z": 3812,
+   "count": 1,
+   "level": 79,
+   "hp": 75,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "green dragon",
+   "x": 3118,
+   "z": 3820,
+   "count": 1,
+   "level": 79,
+   "hp": 75,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 2960,
+   "z": 3381,
+   "count": 5,
+   "level": 21,
+   "hp": 22,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 2966,
+   "z": 3397,
+   "count": 3,
+   "level": 21,
+   "hp": 22,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3006,
+   "z": 3322,
+   "count": 3,
+   "level": 21,
+   "hp": 22,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3089,
+   "z": 3518,
+   "count": 2,
+   "level": 21,
+   "hp": 22,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3112,
+   "z": 3514,
+   "count": 4,
+   "level": 21,
+   "hp": 22,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3174,
+   "z": 3427,
+   "count": 3,
+   "level": 21,
+   "hp": 22,
+   "near": "Varrock west bank"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3180,
+   "z": 3401,
+   "count": 1,
+   "level": 21,
+   "hp": 22,
+   "near": "Varrock smithy"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3204,
+   "z": 3496,
+   "count": 1,
+   "level": 21,
+   "hp": 22,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3209,
+   "z": 3379,
+   "count": 3,
+   "level": 21,
+   "hp": 22,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3212,
+   "z": 3463,
+   "count": 6,
+   "level": 21,
+   "hp": 22,
+   "near": "Varrock"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3243,
+   "z": 3501,
+   "count": 2,
+   "level": 21,
+   "hp": 22,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "guard",
+   "x": 3274,
+   "z": 3427,
+   "count": 4,
+   "level": 21,
+   "hp": 22,
+   "near": "Varrock east bank"
+  },
+  {
+   "kind": "monster",
+   "type": "guard bandit",
+   "x": 3038,
+   "z": 3666,
+   "count": 4,
+   "level": 22,
+   "hp": 27,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "gunthor the brave",
+   "x": 3081,
+   "z": 3444,
+   "count": 1,
+   "level": 29,
+   "hp": 35,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "monster",
+   "type": "highwayman",
+   "x": 3008,
+   "z": 3277,
+   "count": 2,
+   "level": 5,
+   "hp": 13,
+   "aggressive": true,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "highwayman",
+   "x": 3110,
+   "z": 3295,
+   "count": 1,
+   "level": 5,
+   "hp": 13,
+   "aggressive": true,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 2908,
+   "z": 3287,
+   "count": 6,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 2909,
+   "z": 3294,
+   "count": 1,
+   "level": 42,
+   "hp": 49,
+   "aggressive": true,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 2917,
+   "z": 3269,
+   "count": 3,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 3083,
+   "z": 3752,
+   "count": 10,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 3086,
+   "z": 3768,
+   "count": 10,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 3099,
+   "z": 3755,
+   "count": 4,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "hobgoblin",
+   "x": 3102,
+   "z": 3767,
+   "count": 2,
+   "level": 28,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "ice giant",
+   "x": 2953,
+   "z": 3896,
+   "count": 5,
+   "level": 53,
+   "hp": 70,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "ice warrior",
+   "x": 2951,
+   "z": 3862,
+   "count": 4,
+   "level": 57,
+   "hp": 59,
+   "aggressive": true,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "ice warrior",
+   "x": 2955,
+   "z": 3880,
+   "count": 9,
+   "level": 57,
+   "hp": 59,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 2941,
+   "z": 3236,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 2947,
+   "z": 3329,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 2951,
+   "z": 3360,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3012,
+   "z": 3312,
+   "count": 3,
+   "level": 2,
+   "hp": 8,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3073,
+   "z": 3250,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3076,
+   "z": 3499,
+   "count": 2,
+   "level": 2,
+   "hp": 8,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3078,
+   "z": 3461,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Monastery"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3134,
+   "z": 3487,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3177,
+   "z": 3405,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Varrock smithy"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3205,
+   "z": 3355,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3213,
+   "z": 3502,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3214,
+   "z": 3281,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3217,
+   "z": 3226,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3234,
+   "z": 3506,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3238,
+   "z": 3390,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3240,
+   "z": 3307,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3246,
+   "z": 3458,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3261,
+   "z": 3514,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "imp",
+   "x": 3299,
+   "z": 3273,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Toll Gate",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "jail guard",
+   "x": 3115,
+   "z": 3238,
+   "count": 2,
+   "level": 26,
+   "hp": 32,
+   "aggressive": true,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "jail guard",
+   "x": 3124,
+   "z": 3249,
+   "count": 2,
+   "level": 26,
+   "hp": 32,
+   "aggressive": true,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "jonny the beard",
+   "x": 3223,
+   "z": 3395,
+   "count": 1,
+   "level": 2,
+   "hp": 8,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "monster",
+   "type": "lesser demon",
+   "x": 3311,
+   "z": 3845,
+   "count": 1,
+   "level": 82,
+   "hp": 79,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "lesser demon",
+   "x": 3324,
+   "z": 3856,
+   "count": 1,
+   "level": 82,
+   "hp": 79,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "lucien",
+   "x": 3176,
+   "z": 3476,
+   "count": 1,
+   "level": 14,
+   "hp": 17,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2955,
+   "z": 3451,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2959,
+   "z": 3307,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2967,
+   "z": 3373,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2974,
+   "z": 3742,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2981,
+   "z": 3378,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Park"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 2987,
+   "z": 3426,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3006,
+   "z": 3458,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3017,
+   "z": 3238,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3097,
+   "z": 3510,
+   "count": 7,
+   "level": 2,
+   "hp": 7,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3100,
+   "z": 3279,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3154,
+   "z": 3428,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3194,
+   "z": 3396,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3207,
+   "z": 3227,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3219,
+   "z": 3219,
+   "count": 2,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumbridge"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3223,
+   "z": 3238,
+   "count": 3,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3223,
+   "z": 3398,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3231,
+   "z": 3207,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3235,
+   "z": 3219,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumbridge"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3238,
+   "z": 3406,
+   "count": 2,
+   "level": 2,
+   "hp": 7,
+   "near": "Lowe's Archery Emporium"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3245,
+   "z": 3395,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3261,
+   "z": 3402,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3277,
+   "z": 3187,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3283,
+   "z": 3501,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3284,
+   "z": 3199,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "man",
+   "x": 3297,
+   "z": 3202,
+   "count": 4,
+   "level": 2,
+   "hp": 7,
+   "near": "Al Kharid"
+  },
+  {
+   "kind": "monster",
+   "type": "monk",
+   "x": 3045,
+   "z": 3497,
+   "count": 1,
+   "level": 5,
+   "hp": 15,
+   "near": "Monastery"
+  },
+  {
+   "kind": "monster",
+   "type": "monk",
+   "x": 3050,
+   "z": 3489,
+   "count": 3,
+   "level": 5,
+   "hp": 15,
+   "near": "Monastery"
+  },
+  {
+   "kind": "monster",
+   "type": "monk of zamorak",
+   "x": 2934,
+   "z": 3516,
+   "count": 2,
+   "level": 22,
+   "hp": 20,
+   "aggressive": true,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "monk of zamorak",
+   "x": 2935,
+   "z": 3516,
+   "count": 4,
+   "level": 17,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "monster",
+   "type": "monk of zamorak",
+   "x": 3213,
+   "z": 3476,
+   "count": 1,
+   "level": 17,
+   "hp": 10,
+   "aggressive": true,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "moss giant",
+   "x": 3140,
+   "z": 3822,
+   "count": 2,
+   "level": 42,
+   "hp": 60,
+   "aggressive": true,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "moss giant",
+   "x": 3140,
+   "z": 3805,
+   "count": 1,
+   "level": 42,
+   "hp": 60,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "mugger",
+   "x": 3018,
+   "z": 3185,
+   "count": 1,
+   "level": 6,
+   "hp": 8,
+   "aggressive": true,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "mugger",
+   "x": 3175,
+   "z": 3361,
+   "count": 1,
+   "level": 6,
+   "hp": 8,
+   "aggressive": true,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "monster",
+   "type": "mugger",
+   "x": 3249,
+   "z": 3391,
+   "count": 1,
+   "level": 6,
+   "hp": 8,
+   "aggressive": true,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "monster",
+   "type": "pirate",
+   "x": 3014,
+   "z": 3191,
+   "count": 1,
+   "level": 23,
+   "hp": 20,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3273,
+   "z": 3819,
+   "count": 6,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3274,
+   "z": 3800,
+   "count": 7,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3283,
+   "z": 3788,
+   "count": 7,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3289,
+   "z": 3829,
+   "count": 10,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3292,
+   "z": 3806,
+   "count": 7,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3303,
+   "z": 3818,
+   "count": 6,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3303,
+   "z": 3794,
+   "count": 8,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3306,
+   "z": 3834,
+   "count": 2,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3307,
+   "z": 3808,
+   "count": 1,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3320,
+   "z": 3797,
+   "count": 4,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "poison spider",
+   "x": 3321,
+   "z": 3830,
+   "count": 4,
+   "level": 64,
+   "hp": 64,
+   "aggressive": true,
+   "near": "Demonic Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2928,
+   "z": 3249,
+   "count": 4,
+   "level": 1,
+   "hp": 2,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2939,
+   "z": 3242,
+   "count": 1,
+   "level": 1,
+   "hp": 2,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2957,
+   "z": 3203,
+   "count": 4,
+   "level": 1,
+   "hp": 2,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2957,
+   "z": 3704,
+   "count": 5,
+   "level": 1,
+   "hp": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2971,
+   "z": 3690,
+   "count": 5,
+   "level": 1,
+   "hp": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2978,
+   "z": 3702,
+   "count": 2,
+   "level": 1,
+   "hp": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 2998,
+   "z": 3701,
+   "count": 4,
+   "level": 1,
+   "hp": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3013,
+   "z": 3188,
+   "count": 5,
+   "level": 1,
+   "hp": 2,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3017,
+   "z": 3296,
+   "count": 2,
+   "level": 1,
+   "hp": 2,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3100,
+   "z": 3361,
+   "count": 2,
+   "level": 1,
+   "hp": 2,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3100,
+   "z": 3275,
+   "count": 2,
+   "level": 1,
+   "hp": 2,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3151,
+   "z": 3414,
+   "count": 1,
+   "level": 1,
+   "hp": 2,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3158,
+   "z": 3636,
+   "count": 3,
+   "level": 1,
+   "hp": 2,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3176,
+   "z": 3479,
+   "count": 3,
+   "level": 1,
+   "hp": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3202,
+   "z": 3205,
+   "count": 12,
+   "level": 1,
+   "hp": 2,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3230,
+   "z": 3222,
+   "count": 4,
+   "level": 1,
+   "hp": 2,
+   "near": "Lumbridge"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3243,
+   "z": 3393,
+   "count": 1,
+   "level": 1,
+   "hp": 2,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3256,
+   "z": 3673,
+   "count": 6,
+   "level": 1,
+   "hp": 2,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "rat",
+   "x": 3319,
+   "z": 3250,
+   "count": 1,
+   "level": 1,
+   "hp": 2,
+   "near": "Toll Gate"
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3028,
+   "z": 3572,
+   "count": 3,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3043,
+   "z": 3573,
+   "count": 3,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3058,
+   "z": 3570,
+   "count": 3,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3062,
+   "z": 3555,
+   "count": 1,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3280,
+   "z": 3145,
+   "count": 1,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3298,
+   "z": 3303,
+   "count": 5,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3300,
+   "z": 3315,
+   "count": 1,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "scorpion",
+   "x": 3301,
+   "z": 3286,
+   "count": 3,
+   "level": 14,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "shantay guard",
+   "x": 3304,
+   "z": 3125,
+   "count": 3,
+   "level": 22,
+   "hp": 32,
+   "near": "Shantay Pass",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 2979,
+   "z": 3758,
+   "count": 2,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "The Forgotten Cemetery"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3017,
+   "z": 3593,
+   "count": 13,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3073,
+   "z": 3532,
+   "count": 2,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3081,
+   "z": 3551,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3096,
+   "z": 3559,
+   "count": 1,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3104,
+   "z": 3568,
+   "count": 5,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3109,
+   "z": 3543,
+   "count": 2,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3110,
+   "z": 3367,
+   "count": 1,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3113,
+   "z": 3528,
+   "count": 3,
+   "level": 25,
+   "hp": 17,
+   "aggressive": true,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3143,
+   "z": 3802,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3145,
+   "z": 3779,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3179,
+   "z": 3786,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3219,
+   "z": 3740,
+   "count": 4,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3227,
+   "z": 3746,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3246,
+   "z": 3741,
+   "count": 3,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3268,
+   "z": 3730,
+   "count": 5,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "skeleton",
+   "x": 3280,
+   "z": 3727,
+   "count": 1,
+   "level": 22,
+   "hp": 29,
+   "aggressive": true,
+   "near": "Bone Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "speedy keith",
+   "x": 3035,
+   "z": 3696,
+   "count": 1,
+   "level": 34,
+   "hp": 37,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "monster",
+   "type": "spider",
+   "x": 2988,
+   "z": 3685,
+   "count": 6,
+   "level": 1,
+   "hp": 2,
+   "near": "Ruins"
+  },
+  {
+   "kind": "monster",
+   "type": "spider",
+   "x": 3167,
+   "z": 3246,
+   "count": 4,
+   "level": 1,
+   "hp": 2,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "spider",
+   "x": 3170,
+   "z": 3885,
+   "count": 17,
+   "level": 1,
+   "hp": 2,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "monster",
+   "type": "spider",
+   "x": 3238,
+   "z": 3392,
+   "count": 1,
+   "level": 1,
+   "hp": 2,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "spider",
+   "x": 3322,
+   "z": 3139,
+   "count": 3,
+   "level": 1,
+   "hp": 2,
+   "near": "Shantay Pass",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "thief",
+   "x": 3014,
+   "z": 3195,
+   "count": 1,
+   "level": 16,
+   "hp": 17,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "thief",
+   "x": 3015,
+   "z": 3232,
+   "count": 2,
+   "level": 16,
+   "hp": 17,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "thief",
+   "x": 3184,
+   "z": 3388,
+   "count": 3,
+   "level": 16,
+   "hp": 17,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "monster",
+   "type": "thief",
+   "x": 3230,
+   "z": 3391,
+   "count": 1,
+   "level": 16,
+   "hp": 17,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "monster",
+   "type": "thief",
+   "x": 3285,
+   "z": 3501,
+   "count": 1,
+   "level": 16,
+   "hp": 17,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "thug",
+   "x": 3168,
+   "z": 3574,
+   "count": 4,
+   "level": 10,
+   "hp": 18,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "thug",
+   "x": 3176,
+   "z": 3563,
+   "count": 2,
+   "level": 10,
+   "hp": 18,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "thug",
+   "x": 3187,
+   "z": 3575,
+   "count": 2,
+   "level": 10,
+   "hp": 18,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "thug",
+   "x": 3189,
+   "z": 3563,
+   "count": 1,
+   "level": 10,
+   "hp": 18,
+   "aggressive": true,
+   "near": "Chaos Temple"
+  },
+  {
+   "kind": "monster",
+   "type": "tramp",
+   "x": 3235,
+   "z": 3401,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Lowe's Archery Emporium"
+  },
+  {
+   "kind": "monster",
+   "type": "unicorn",
+   "x": 3087,
+   "z": 3452,
+   "count": 2,
+   "level": 15,
+   "hp": 19,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "monster",
+   "type": "unicorn",
+   "x": 3140,
+   "z": 3209,
+   "count": 1,
+   "level": 15,
+   "hp": 19,
+   "near": "Jail"
+  },
+  {
+   "kind": "monster",
+   "type": "unicorn",
+   "x": 3285,
+   "z": 3352,
+   "count": 2,
+   "level": 15,
+   "hp": 19,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "monster",
+   "type": "warrior woman",
+   "x": 3204,
+   "z": 3487,
+   "count": 2,
+   "level": 24,
+   "hp": 20,
+   "near": "Palace"
+  },
+  {
+   "kind": "monster",
+   "type": "white knight",
+   "x": 2959,
+   "z": 3338,
+   "count": 2,
+   "level": 36,
+   "hp": 52,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "monster",
+   "type": "white knight",
+   "x": 2978,
+   "z": 3344,
+   "count": 6,
+   "level": 36,
+   "hp": 52,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "white knight",
+   "x": 2983,
+   "z": 3332,
+   "count": 2,
+   "level": 36,
+   "hp": 52,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "white knight",
+   "x": 2996,
+   "z": 3342,
+   "count": 1,
+   "level": 36,
+   "hp": 52,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "witch",
+   "x": 3099,
+   "z": 3370,
+   "count": 1,
+   "level": 25,
+   "hp": 10,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "monster",
+   "type": "witch",
+   "x": 3321,
+   "z": 3139,
+   "count": 1,
+   "level": 25,
+   "hp": 10,
+   "near": "Shantay Pass",
+   "tollGate": true
+  },
+  {
+   "kind": "monster",
+   "type": "wizard",
+   "x": 3110,
+   "z": 3163,
+   "count": 4,
+   "level": 9,
+   "hp": 14,
+   "near": "Wizards' Tower"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 2970,
+   "z": 3389,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Falador"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3011,
+   "z": 3236,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3217,
+   "z": 3205,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3223,
+   "z": 3401,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3231,
+   "z": 3240,
+   "count": 1,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3240,
+   "z": 3209,
+   "count": 2,
+   "level": 2,
+   "hp": 7,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "monster",
+   "type": "woman",
+   "x": 3279,
+   "z": 3499,
+   "count": 2,
+   "level": 2,
+   "hp": 7,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "monster",
+   "type": "wormbrain",
+   "x": 3014,
+   "z": 3186,
+   "count": 1,
+   "level": 2,
+   "hp": 5,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3153,
+   "z": 3658,
+   "count": 1,
+   "level": 18,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3153,
+   "z": 3676,
+   "count": 1,
+   "level": 24,
+   "hp": 30,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3158,
+   "z": 3677,
+   "count": 4,
+   "level": 18,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3163,
+   "z": 3685,
+   "count": 1,
+   "level": 24,
+   "hp": 30,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3167,
+   "z": 3669,
+   "count": 3,
+   "level": 24,
+   "hp": 30,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3169,
+   "z": 3666,
+   "count": 2,
+   "level": 18,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3176,
+   "z": 3682,
+   "count": 1,
+   "level": 24,
+   "hp": 30,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "monster",
+   "type": "zombie",
+   "x": 3178,
+   "z": 3681,
+   "count": 8,
+   "level": 18,
+   "hp": 24,
+   "aggressive": true,
+   "near": "Graveyard of Shadows"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 2917,
+   "z": 3318,
+   "count": 1,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 2969,
+   "z": 3330,
+   "count": 2,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 2970,
+   "z": 3209,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 2988,
+   "z": 3365,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3019,
+   "z": 3237,
+   "count": 1,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3036,
+   "z": 3342,
+   "count": 1,
+   "near": "Park"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3036,
+   "z": 3708,
+   "count": 1,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3043,
+   "z": 3371,
+   "count": 2,
+   "near": "Park"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3052,
+   "z": 3356,
+   "count": 1,
+   "near": "Park"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3097,
+   "z": 3367,
+   "count": 1,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3156,
+   "z": 3410,
+   "count": 1,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3160,
+   "z": 3427,
+   "count": 1,
+   "near": "Varrock west bank"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3188,
+   "z": 3352,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3219,
+   "z": 3388,
+   "count": 1,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3222,
+   "z": 3497,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3230,
+   "z": 3196,
+   "count": 1,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3234,
+   "z": 3404,
+   "count": 3,
+   "near": "Lowe's Archery Emporium"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3236,
+   "z": 3382,
+   "count": 1,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3271,
+   "z": 3180,
+   "count": 1,
+   "near": "Al Kharid",
+   "tollGate": true
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3286,
+   "z": 3488,
+   "count": 2,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3292,
+   "z": 3202,
+   "count": 1,
+   "near": "Al Kharid"
+  },
+  {
+   "kind": "range",
+   "type": "range",
+   "x": 3318,
+   "z": 3138,
+   "count": 1,
+   "near": "Shantay Pass",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "adamantite",
+   "x": 3078,
+   "z": 3757,
+   "count": 7,
+   "near": "Bandit Camp"
+  },
+  {
+   "kind": "rock",
+   "type": "adamantite",
+   "x": 3243,
+   "z": 3165,
+   "count": 2,
+   "near": "Lumbridge Swamp mine"
+  },
+  {
+   "kind": "rock",
+   "type": "adamantite",
+   "x": 3299,
+   "z": 3318,
+   "count": 2,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "clay",
+   "x": 2987,
+   "z": 3240,
+   "count": 2,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "clay",
+   "x": 3181,
+   "z": 3373,
+   "count": 3,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3017,
+   "z": 3591,
+   "count": 34,
+   "near": "Dark Knight Fortress"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3081,
+   "z": 3767,
+   "count": 15,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3088,
+   "z": 3433,
+   "count": 4,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3090,
+   "z": 3754,
+   "count": 15,
+   "near": "Ruins"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3092,
+   "z": 3774,
+   "count": 2,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3103,
+   "z": 3566,
+   "count": 3,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3236,
+   "z": 3166,
+   "count": 7,
+   "near": "Lumbridge Swamp mine"
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3302,
+   "z": 3317,
+   "count": 1,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "coal",
+   "x": 3304,
+   "z": 3300,
+   "count": 2,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "copper",
+   "x": 2977,
+   "z": 3247,
+   "count": 5,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "copper",
+   "x": 3287,
+   "z": 3364,
+   "count": 9,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "rock",
+   "type": "copper",
+   "x": 3298,
+   "z": 3316,
+   "count": 3,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "gold",
+   "x": 2976,
+   "z": 3234,
+   "count": 2,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "gold",
+   "x": 3294,
+   "z": 3288,
+   "count": 2,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 2969,
+   "z": 3240,
+   "count": 4,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 2982,
+   "z": 3234,
+   "count": 2,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3076,
+   "z": 3771,
+   "count": 3,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3096,
+   "z": 3767,
+   "count": 13,
+   "near": "Ruins"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3105,
+   "z": 3570,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3177,
+   "z": 3369,
+   "count": 3,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3286,
+   "z": 3369,
+   "count": 4,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3300,
+   "z": 3307,
+   "count": 7,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "iron",
+   "x": 3303,
+   "z": 3285,
+   "count": 2,
+   "near": "Toll Gate",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "mithril",
+   "x": 3085,
+   "z": 3762,
+   "count": 15,
+   "near": "Ruins"
+  },
+  {
+   "kind": "rock",
+   "type": "mithril",
+   "x": 3101,
+   "z": 3761,
+   "count": 4,
+   "near": "Ruins"
+  },
+  {
+   "kind": "rock",
+   "type": "mithril",
+   "x": 3243,
+   "z": 3162,
+   "count": 5,
+   "near": "Lumbridge Swamp mine"
+  },
+  {
+   "kind": "rock",
+   "type": "mithril",
+   "x": 3305,
+   "z": 3305,
+   "count": 2,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "runite",
+   "x": 3060,
+   "z": 3885,
+   "count": 2,
+   "near": "Lava Maze"
+  },
+  {
+   "kind": "rock",
+   "type": "silver",
+   "x": 3177,
+   "z": 3367,
+   "count": 3,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "rock",
+   "type": "silver",
+   "x": 3294,
+   "z": 3302,
+   "count": 3,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "silver",
+   "x": 3303,
+   "z": 3314,
+   "count": 2,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "rock",
+   "type": "tin",
+   "x": 2985,
+   "z": 3236,
+   "count": 2,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "rock",
+   "type": "tin",
+   "x": 3087,
+   "z": 3419,
+   "count": 5,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "rock",
+   "type": "tin",
+   "x": 3178,
+   "z": 3371,
+   "count": 8,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "rock",
+   "type": "tin",
+   "x": 3285,
+   "z": 3365,
+   "count": 6,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "rock",
+   "type": "tin",
+   "x": 3302,
+   "z": 3316,
+   "count": 1,
+   "near": "Al Kharid mine",
+   "tollGate": true
+  },
+  {
+   "kind": "spinning wheel",
+   "type": "spinning wheel",
+   "x": 2981,
+   "z": 3314,
+   "count": 1,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "spinning wheel",
+   "type": "spinning wheel",
+   "x": 3081,
+   "z": 3430,
+   "count": 1,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2925,
+   "z": 3234,
+   "count": 1,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2934,
+   "z": 3302,
+   "count": 5,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2942,
+   "z": 3268,
+   "count": 4,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2949,
+   "z": 3404,
+   "count": 2,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2950,
+   "z": 3311,
+   "count": 2,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2952,
+   "z": 3231,
+   "count": 4,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2954,
+   "z": 3196,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2974,
+   "z": 3282,
+   "count": 4,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2978,
+   "z": 3389,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2979,
+   "z": 3220,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2979,
+   "z": 3528,
+   "count": 1,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2982,
+   "z": 3204,
+   "count": 4,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2982,
+   "z": 3271,
+   "count": 2,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2982,
+   "z": 3297,
+   "count": 1,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2982,
+   "z": 3364,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2994,
+   "z": 3283,
+   "count": 5,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2996,
+   "z": 3420,
+   "count": 1,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2998,
+   "z": 3257,
+   "count": 2,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 2999,
+   "z": 3305,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3000,
+   "z": 3366,
+   "count": 1,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3005,
+   "z": 3313,
+   "count": 3,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3007,
+   "z": 3298,
+   "count": 2,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3010,
+   "z": 3216,
+   "count": 1,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3012,
+   "z": 3534,
+   "count": 4,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3015,
+   "z": 3411,
+   "count": 4,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3021,
+   "z": 3308,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3021,
+   "z": 3171,
+   "count": 2,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3026,
+   "z": 3524,
+   "count": 1,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3027,
+   "z": 3396,
+   "count": 1,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3027,
+   "z": 3274,
+   "count": 4,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3028,
+   "z": 3370,
+   "count": 1,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3030,
+   "z": 3547,
+   "count": 1,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3039,
+   "z": 3278,
+   "count": 1,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3039,
+   "z": 3262,
+   "count": 2,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3040,
+   "z": 3332,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3046,
+   "z": 3529,
+   "count": 2,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3048,
+   "z": 3313,
+   "count": 3,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3056,
+   "z": 3366,
+   "count": 1,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3056,
+   "z": 3264,
+   "count": 2,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3060,
+   "z": 3317,
+   "count": 4,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3061,
+   "z": 3337,
+   "count": 5,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3061,
+   "z": 3398,
+   "count": 1,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3062,
+   "z": 3302,
+   "count": 1,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3066,
+   "z": 3352,
+   "count": 3,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3070,
+   "z": 3376,
+   "count": 2,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3070,
+   "z": 3253,
+   "count": 1,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3074,
+   "z": 3422,
+   "count": 1,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3081,
+   "z": 3527,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3081,
+   "z": 3297,
+   "count": 4,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3097,
+   "z": 3214,
+   "count": 1,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3098,
+   "z": 3409,
+   "count": 2,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3101,
+   "z": 3535,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3101,
+   "z": 3289,
+   "count": 6,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3104,
+   "z": 3150,
+   "count": 1,
+   "near": "Wizards' Tower"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3108,
+   "z": 3302,
+   "count": 1,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3112,
+   "z": 3244,
+   "count": 6,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3113,
+   "z": 3456,
+   "count": 1,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3114,
+   "z": 3231,
+   "count": 1,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3115,
+   "z": 3526,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3115,
+   "z": 3220,
+   "count": 2,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3118,
+   "z": 3406,
+   "count": 3,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3124,
+   "z": 3255,
+   "count": 3,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3126,
+   "z": 3432,
+   "count": 3,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3128,
+   "z": 3213,
+   "count": 2,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3130,
+   "z": 3476,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3138,
+   "z": 3326,
+   "count": 1,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3140,
+   "z": 3409,
+   "count": 3,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3143,
+   "z": 3396,
+   "count": 1,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3149,
+   "z": 3222,
+   "count": 2,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3150,
+   "z": 3242,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3151,
+   "z": 3258,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3157,
+   "z": 3525,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3164,
+   "z": 3416,
+   "count": 3,
+   "near": "Varrock smithy"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3165,
+   "z": 3228,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3165,
+   "z": 3259,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3166,
+   "z": 3501,
+   "count": 6,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3166,
+   "z": 3386,
+   "count": 2,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3167,
+   "z": 3476,
+   "count": 5,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3178,
+   "z": 3467,
+   "count": 3,
+   "near": "Varrock"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3188,
+   "z": 3247,
+   "count": 1,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3190,
+   "z": 3302,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3191,
+   "z": 3511,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3192,
+   "z": 3460,
+   "count": 3,
+   "near": "Varrock west bank"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3192,
+   "z": 3524,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3192,
+   "z": 3213,
+   "count": 1,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3193,
+   "z": 3321,
+   "count": 3,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3203,
+   "z": 3243,
+   "count": 2,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3204,
+   "z": 3525,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3206,
+   "z": 3263,
+   "count": 1,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3206,
+   "z": 3365,
+   "count": 10,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3218,
+   "z": 3205,
+   "count": 1,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3223,
+   "z": 3434,
+   "count": 1,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3224,
+   "z": 3519,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3231,
+   "z": 3333,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3232,
+   "z": 3270,
+   "count": 2,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3239,
+   "z": 3506,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3241,
+   "z": 3253,
+   "count": 1,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3248,
+   "z": 3270,
+   "count": 1,
+   "near": "Lumbridge cow field"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3250,
+   "z": 3363,
+   "count": 5,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3252,
+   "z": 3237,
+   "count": 1,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3257,
+   "z": 3340,
+   "count": 3,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3259,
+   "z": 3300,
+   "count": 1,
+   "near": "Lumbridge cow field"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3260,
+   "z": 3223,
+   "count": 1,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3263,
+   "z": 3524,
+   "count": 3,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3268,
+   "z": 3507,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3274,
+   "z": 3474,
+   "count": 5,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3279,
+   "z": 3430,
+   "count": 3,
+   "near": "Varrock east bank"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3280,
+   "z": 3415,
+   "count": 2,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3288,
+   "z": 3521,
+   "count": 3,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3291,
+   "z": 3338,
+   "count": 7,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3292,
+   "z": 3488,
+   "count": 4,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3300,
+   "z": 3353,
+   "count": 1,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3306,
+   "z": 3465,
+   "count": 3,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3311,
+   "z": 3524,
+   "count": 3,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3321,
+   "z": 3495,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "oak",
+   "x": 3323,
+   "z": 3521,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2918,
+   "z": 3312,
+   "count": 12,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2918,
+   "z": 3250,
+   "count": 2,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2925,
+   "z": 3228,
+   "count": 12,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2932,
+   "z": 3261,
+   "count": 4,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2934,
+   "z": 3300,
+   "count": 9,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2937,
+   "z": 3201,
+   "count": 1,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2939,
+   "z": 3497,
+   "count": 4,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2948,
+   "z": 3315,
+   "count": 4,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2948,
+   "z": 3358,
+   "count": 3,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2951,
+   "z": 3429,
+   "count": 5,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2952,
+   "z": 3230,
+   "count": 24,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2952,
+   "z": 3408,
+   "count": 14,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2955,
+   "z": 3289,
+   "count": 10,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2959,
+   "z": 3303,
+   "count": 3,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2960,
+   "z": 3246,
+   "count": 9,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2962,
+   "z": 3485,
+   "count": 7,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2964,
+   "z": 3270,
+   "count": 8,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2964,
+   "z": 3462,
+   "count": 8,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2965,
+   "z": 3425,
+   "count": 5,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2970,
+   "z": 3202,
+   "count": 6,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2971,
+   "z": 3224,
+   "count": 2,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2974,
+   "z": 3449,
+   "count": 8,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2975,
+   "z": 3365,
+   "count": 2,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2977,
+   "z": 3495,
+   "count": 13,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2978,
+   "z": 3285,
+   "count": 11,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2979,
+   "z": 3524,
+   "count": 11,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2980,
+   "z": 3299,
+   "count": 10,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2982,
+   "z": 3435,
+   "count": 5,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2982,
+   "z": 3510,
+   "count": 10,
+   "near": "Goblin Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2983,
+   "z": 3271,
+   "count": 7,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2983,
+   "z": 3462,
+   "count": 3,
+   "near": "Ice Mountain"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2988,
+   "z": 3255,
+   "count": 24,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2988,
+   "z": 3211,
+   "count": 8,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2990,
+   "z": 3482,
+   "count": 6,
+   "near": "Ice Mountain"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2991,
+   "z": 3372,
+   "count": 3,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2992,
+   "z": 3198,
+   "count": 14,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2992,
+   "z": 3306,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2992,
+   "z": 3390,
+   "count": 4,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2994,
+   "z": 3231,
+   "count": 8,
+   "near": "Rimmington mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2994,
+   "z": 3293,
+   "count": 6,
+   "near": "White Knights' Castle"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2995,
+   "z": 3450,
+   "count": 5,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2996,
+   "z": 3514,
+   "count": 6,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2999,
+   "z": 3419,
+   "count": 7,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 2999,
+   "z": 3544,
+   "count": 2,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3002,
+   "z": 3166,
+   "count": 2,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3002,
+   "z": 3232,
+   "count": 8,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3002,
+   "z": 3251,
+   "count": 10,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3002,
+   "z": 3212,
+   "count": 3,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3002,
+   "z": 3360,
+   "count": 4,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3004,
+   "z": 3276,
+   "count": 2,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3006,
+   "z": 3308,
+   "count": 10,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3007,
+   "z": 3294,
+   "count": 2,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3011,
+   "z": 3443,
+   "count": 2,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3015,
+   "z": 3217,
+   "count": 2,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3015,
+   "z": 3532,
+   "count": 13,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3018,
+   "z": 3396,
+   "count": 2,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3018,
+   "z": 3457,
+   "count": 6,
+   "near": "Dwarven Mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3020,
+   "z": 3405,
+   "count": 9,
+   "near": "Park"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3021,
+   "z": 3274,
+   "count": 13,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3021,
+   "z": 3170,
+   "count": 9,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3021,
+   "z": 3190,
+   "count": 2,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3022,
+   "z": 3319,
+   "count": 13,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3023,
+   "z": 3182,
+   "count": 1,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3025,
+   "z": 3491,
+   "count": 7,
+   "near": "Ice Mountain"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3026,
+   "z": 3524,
+   "count": 4,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3031,
+   "z": 3548,
+   "count": 2,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3035,
+   "z": 3406,
+   "count": 1,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3035,
+   "z": 3509,
+   "count": 3,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3039,
+   "z": 3463,
+   "count": 10,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3040,
+   "z": 3269,
+   "count": 21,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3041,
+   "z": 3395,
+   "count": 2,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3043,
+   "z": 3334,
+   "count": 8,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3044,
+   "z": 3302,
+   "count": 4,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3045,
+   "z": 3474,
+   "count": 2,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3046,
+   "z": 3439,
+   "count": 18,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3047,
+   "z": 3423,
+   "count": 3,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3049,
+   "z": 3527,
+   "count": 7,
+   "near": "Black Knights' Fortress"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3051,
+   "z": 3319,
+   "count": 19,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3055,
+   "z": 3352,
+   "count": 2,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3055,
+   "z": 3392,
+   "count": 3,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3056,
+   "z": 3370,
+   "count": 3,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3056,
+   "z": 3447,
+   "count": 13,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3056,
+   "z": 3264,
+   "count": 6,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3057,
+   "z": 3465,
+   "count": 5,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3060,
+   "z": 3432,
+   "count": 5,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3065,
+   "z": 3327,
+   "count": 1,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3068,
+   "z": 3281,
+   "count": 1,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3069,
+   "z": 3253,
+   "count": 3,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3073,
+   "z": 3530,
+   "count": 4,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3073,
+   "z": 3483,
+   "count": 3,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3074,
+   "z": 3305,
+   "count": 9,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3076,
+   "z": 3462,
+   "count": 7,
+   "near": "Monastery"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3076,
+   "z": 3516,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3079,
+   "z": 3269,
+   "count": 9,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3085,
+   "z": 3243,
+   "count": 2,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3087,
+   "z": 3293,
+   "count": 10,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3088,
+   "z": 3456,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3089,
+   "z": 3519,
+   "count": 4,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3090,
+   "z": 3503,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3098,
+   "z": 3409,
+   "count": 3,
+   "near": "Barbarian Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3099,
+   "z": 3432,
+   "count": 4,
+   "near": "Barbarian Village mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3099,
+   "z": 3285,
+   "count": 10,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3100,
+   "z": 3306,
+   "count": 18,
+   "near": "Draynor Manor"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3101,
+   "z": 3535,
+   "count": 4,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3105,
+   "z": 3170,
+   "count": 1,
+   "near": "Wizards' Tower"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3109,
+   "z": 3220,
+   "count": 12,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3110,
+   "z": 3250,
+   "count": 14,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3111,
+   "z": 3453,
+   "count": 4,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3111,
+   "z": 3209,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3112,
+   "z": 3232,
+   "count": 11,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3115,
+   "z": 3528,
+   "count": 3,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3117,
+   "z": 3300,
+   "count": 11,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3118,
+   "z": 3474,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3120,
+   "z": 3505,
+   "count": 14,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3121,
+   "z": 3432,
+   "count": 5,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3124,
+   "z": 3480,
+   "count": 17,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3124,
+   "z": 3256,
+   "count": 7,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3125,
+   "z": 3410,
+   "count": 2,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3128,
+   "z": 3400,
+   "count": 1,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3129,
+   "z": 3496,
+   "count": 6,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3129,
+   "z": 3213,
+   "count": 18,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3129,
+   "z": 3231,
+   "count": 2,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3130,
+   "z": 3450,
+   "count": 5,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3132,
+   "z": 3530,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3132,
+   "z": 3509,
+   "count": 1,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3135,
+   "z": 3256,
+   "count": 6,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3138,
+   "z": 3436,
+   "count": 11,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3141,
+   "z": 3420,
+   "count": 12,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3142,
+   "z": 3323,
+   "count": 6,
+   "near": "River Lum"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3142,
+   "z": 3400,
+   "count": 13,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3143,
+   "z": 3495,
+   "count": 16,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3143,
+   "z": 3512,
+   "count": 16,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3144,
+   "z": 3242,
+   "count": 17,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3146,
+   "z": 3274,
+   "count": 1,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3147,
+   "z": 3206,
+   "count": 16,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3148,
+   "z": 3352,
+   "count": 1,
+   "near": "River Lum"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3149,
+   "z": 3220,
+   "count": 11,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3150,
+   "z": 3457,
+   "count": 13,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3153,
+   "z": 3475,
+   "count": 13,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3156,
+   "z": 3249,
+   "count": 3,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3157,
+   "z": 3527,
+   "count": 4,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3159,
+   "z": 3262,
+   "count": 4,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3161,
+   "z": 3499,
+   "count": 13,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3163,
+   "z": 3366,
+   "count": 5,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3163,
+   "z": 3400,
+   "count": 13,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3163,
+   "z": 3414,
+   "count": 6,
+   "near": "Varrock smithy"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3165,
+   "z": 3517,
+   "count": 11,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3165,
+   "z": 3228,
+   "count": 11,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3165,
+   "z": 3380,
+   "count": 14,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3167,
+   "z": 3461,
+   "count": 12,
+   "near": "Cooks' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3167,
+   "z": 3337,
+   "count": 2,
+   "near": "River Lum"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3169,
+   "z": 3438,
+   "count": 3,
+   "near": "Varrock west bank"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3170,
+   "z": 3212,
+   "count": 10,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3172,
+   "z": 3487,
+   "count": 17,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3172,
+   "z": 3281,
+   "count": 11,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3179,
+   "z": 3468,
+   "count": 2,
+   "near": "Varrock"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3180,
+   "z": 3359,
+   "count": 1,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3181,
+   "z": 3254,
+   "count": 15,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3181,
+   "z": 3371,
+   "count": 2,
+   "near": "Varrock south-west mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3182,
+   "z": 3500,
+   "count": 12,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3184,
+   "z": 3236,
+   "count": 14,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3186,
+   "z": 3292,
+   "count": 1,
+   "near": "River Lum"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3188,
+   "z": 3321,
+   "count": 9,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3189,
+   "z": 3517,
+   "count": 14,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3190,
+   "z": 3220,
+   "count": 8,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3190,
+   "z": 3209,
+   "count": 3,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3192,
+   "z": 3484,
+   "count": 6,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3195,
+   "z": 3529,
+   "count": 3,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3195,
+   "z": 3230,
+   "count": 1,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3196,
+   "z": 3502,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3197,
+   "z": 3346,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3198,
+   "z": 3243,
+   "count": 7,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3199,
+   "z": 3370,
+   "count": 8,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3200,
+   "z": 3255,
+   "count": 1,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3201,
+   "z": 3410,
+   "count": 2,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3208,
+   "z": 3527,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3210,
+   "z": 3515,
+   "count": 14,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3210,
+   "z": 3309,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3211,
+   "z": 3447,
+   "count": 9,
+   "near": "Varrock"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3213,
+   "z": 3292,
+   "count": 2,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3219,
+   "z": 3322,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3219,
+   "z": 3237,
+   "count": 7,
+   "near": "Lumbridge general store"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3220,
+   "z": 3267,
+   "count": 4,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3220,
+   "z": 3407,
+   "count": 1,
+   "near": "Varrock Swordshop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3223,
+   "z": 3523,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3223,
+   "z": 3374,
+   "count": 7,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3223,
+   "z": 3421,
+   "count": 3,
+   "near": "Lowe's Archery Emporium"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3229,
+   "z": 3245,
+   "count": 1,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3231,
+   "z": 3464,
+   "count": 8,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3233,
+   "z": 3333,
+   "count": 4,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3234,
+   "z": 3513,
+   "count": 14,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3235,
+   "z": 3230,
+   "count": 1,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3238,
+   "z": 3441,
+   "count": 3,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3239,
+   "z": 3272,
+   "count": 5,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3239,
+   "z": 3319,
+   "count": 3,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3242,
+   "z": 3458,
+   "count": 1,
+   "near": "Horvik's Armour Shop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3242,
+   "z": 3366,
+   "count": 10,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3246,
+   "z": 3256,
+   "count": 3,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3248,
+   "z": 3340,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3249,
+   "z": 3505,
+   "count": 4,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3249,
+   "z": 3516,
+   "count": 4,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3249,
+   "z": 3232,
+   "count": 2,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3253,
+   "z": 3194,
+   "count": 1,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3255,
+   "z": 3369,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3257,
+   "z": 3516,
+   "count": 11,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3258,
+   "z": 3468,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3258,
+   "z": 3326,
+   "count": 2,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3259,
+   "z": 3252,
+   "count": 2,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3261,
+   "z": 3243,
+   "count": 4,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3261,
+   "z": 3436,
+   "count": 2,
+   "near": "Varrock east bank"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3263,
+   "z": 3222,
+   "count": 7,
+   "near": "Lumbridge goblins"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3264,
+   "z": 3365,
+   "count": 9,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3267,
+   "z": 3502,
+   "count": 13,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3273,
+   "z": 3518,
+   "count": 7,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3273,
+   "z": 3467,
+   "count": 4,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3274,
+   "z": 3342,
+   "count": 15,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3276,
+   "z": 3449,
+   "count": 12,
+   "near": "Varrock"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3278,
+   "z": 3478,
+   "count": 19,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3278,
+   "z": 3354,
+   "count": 4,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3279,
+   "z": 3530,
+   "count": 7,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3281,
+   "z": 3415,
+   "count": 7,
+   "near": "Varrock guards"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3282,
+   "z": 3434,
+   "count": 5,
+   "near": "Varrock"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3289,
+   "z": 3514,
+   "count": 6,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3291,
+   "z": 3452,
+   "count": 3,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3294,
+   "z": 3495,
+   "count": 5,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3296,
+   "z": 3339,
+   "count": 9,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3298,
+   "z": 3368,
+   "count": 6,
+   "near": "Varrock mine"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3301,
+   "z": 3477,
+   "count": 16,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3301,
+   "z": 3464,
+   "count": 9,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3304,
+   "z": 3525,
+   "count": 11,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3304,
+   "z": 3352,
+   "count": 6,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3305,
+   "z": 3332,
+   "count": 1,
+   "near": "Champions' Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3312,
+   "z": 3471,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3321,
+   "z": 3490,
+   "count": 4,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "tree",
+   "x": 3322,
+   "z": 3525,
+   "count": 9,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 2915,
+   "z": 3300,
+   "count": 8,
+   "near": "Crafting Guild"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 2966,
+   "z": 3193,
+   "count": 9,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 2987,
+   "z": 3184,
+   "count": 6,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 2995,
+   "z": 3167,
+   "count": 7,
+   "near": "Rimmington"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3029,
+   "z": 3172,
+   "count": 3,
+   "near": "Port Sarim"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3060,
+   "z": 3252,
+   "count": 6,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3086,
+   "z": 3233,
+   "count": 5,
+   "near": "Draynor fishing spot"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3112,
+   "z": 3491,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3165,
+   "z": 3270,
+   "count": 4,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3177,
+   "z": 3271,
+   "count": 3,
+   "near": "Draynor Village"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3208,
+   "z": 3357,
+   "count": 2,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3221,
+   "z": 3305,
+   "count": 3,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3221,
+   "z": 3290,
+   "count": 1,
+   "near": "Lumbridge chickens"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3234,
+   "z": 3241,
+   "count": 2,
+   "near": "Lumbridge furnace"
+  },
+  {
+   "kind": "tree",
+   "type": "willow",
+   "x": 3257,
+   "z": 3352,
+   "count": 2,
+   "near": "Unicorns"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 2936,
+   "z": 3230,
+   "count": 4,
+   "near": "Melzar's Maze"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 2996,
+   "z": 3311,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3017,
+   "z": 3308,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3041,
+   "z": 3319,
+   "count": 1,
+   "near": "Falador"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3053,
+   "z": 3271,
+   "count": 1,
+   "near": "Market"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3085,
+   "z": 3474,
+   "count": 2,
+   "near": "Edgeville"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3146,
+   "z": 3254,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3151,
+   "z": 3230,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3165,
+   "z": 3219,
+   "count": 1,
+   "near": "Jail"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3184,
+   "z": 3226,
+   "count": 1,
+   "near": "Lumbridge trees"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3206,
+   "z": 3502,
+   "count": 2,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3221,
+   "z": 3504,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3248,
+   "z": 3472,
+   "count": 1,
+   "near": "Palace"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3249,
+   "z": 3201,
+   "count": 1,
+   "near": "Bob's axe shop"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3253,
+   "z": 3364,
+   "count": 1,
+   "near": "Varrock dark wizards"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3266,
+   "z": 3493,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3270,
+   "z": 3470,
+   "count": 1,
+   "near": "Lumber Yard"
+  },
+  {
+   "kind": "tree",
+   "type": "yew",
+   "x": 3304,
+   "z": 3469,
+   "count": 1,
+   "near": "Lumber Yard"
+  }
+ ]
+}

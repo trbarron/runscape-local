@@ -1,0 +1,35 @@
+# Local rs-sdk server. Ports bind to 127.0.0.1 only; remote access is via
+# `tailscale serve` (see README.md), so only tailnet members can reach it.
+services:
+  rs-sdk:
+    image: rs-sdk-server
+    build:
+      context: ./rs-sdk
+      dockerfile: server/Dockerfile
+    container_name: rs-sdk
+    restart: unless-stopped
+    stop_grace_period: 120s
+    ports:
+      - "127.0.0.1:8080:8080"   # web client, /bot, /gateway relay, hiscores
+      - "127.0.0.1:8888:8080"   # same; `create-bot.ts --local` expects :8888
+      - "127.0.0.1:7780:7780"   # gateway (local SDK default ws://localhost:7780)
+      - "127.0.0.1:43594:43594" # native game protocol (Java clients)
+    volumes:
+      - ./data:/opt/server/data  # accounts db, player saves, GE db
+    environment:
+      DB_BACKEND: sqlite
+      EASY_STARTUP: "true"
+      BUILD_STARTUP: "false"
+      BUILD_STARTUP_UPDATE: "false"
+      LOGIN_SERVER: "true"
+      FRIEND_SERVER: "true"
+      WEBSITE_REGISTRATION: "false" # false = accounts auto-create on first login
+      NODE_MEMBERS: "true"
+      NODE_DEBUG: "true"            # enables ::speed and other dev commands
+      NODE_PORT: "43594"
+      WEB_PORT: "8080"
+      NODE_TICKRATE: "200"          # ms per tick; real RS is 600, so this is 3x
+      NODE_XPRATE: "1"           # XP multiplier (upstream demo uses 25)
+      NODE_RANDOM_EVENTS: "false"
+      GE_DATABASE: /opt/server/data/market.sqlite
+      BUG_REPORTS_FILE: /opt/server/data/bug-reports.jsonl

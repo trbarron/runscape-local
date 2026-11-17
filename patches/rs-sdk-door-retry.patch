@@ -1,0 +1,94 @@
+diff --git a/sdk/actions-helpers.ts b/sdk/actions-helpers.ts
+index bc34476..d767b10 100644
+--- a/sdk/actions-helpers.ts
++++ b/sdk/actions-helpers.ts
+@@ -120,7 +120,11 @@ export class ActionHelpers {
+             if (attempt < maxRetries) {
+                 // Try approaching from a different side (common case for
+                 // wall-adjacent locs like fireplaces, bank booths, furnaces)
+-                if (adjacentTarget) {
++                // Being adjacent can still leave us outside the building's
++                // wall. If that reposition did not resolve the reach failure,
++                // leave the next retry for opening a door instead of endlessly
++                // selecting the same adjacent tile.
++                if (adjacentTarget && attempt === 0) {
+                     const repositioned = await this.walkAdjacentTo(adjacentTarget.x, adjacentTarget.z);
+                     if (repositioned) {
+                         await this.sdk.waitForTicks(1);
+diff --git a/sdk/actions.ts b/sdk/actions.ts
+index ee833c5..f20c5bf 100644
+--- a/sdk/actions.ts
++++ b/sdk/actions.ts
+@@ -3922,8 +3922,10 @@ export class BotActions {
+             return this.sdk.findInventoryItem(/dagger|(?<!pick)axe|mace|helm|sword|shield|body|legs|skirt|claws|knives|bolts|arrowtips|arrowheads|arrow|dart|nails/i);
+         };
+ 
+-        // Use bar on anvil
+-        const useResult = await this.sdk.sendUseItemOnLoc(bar.slot, anvil.x, anvil.z, anvil.id);
++        // Approach through doors before using the bar. A raw OPLOCU dispatch
++        // cannot open a closed smithy door, and its success only means sent:
++        // the server can still answer "I can't reach that!".
++        const useResult = await this.useItemOnLoc(bar, anvil);
+         if (!useResult.success) {
+             // Propagate the real failure: a routing cant_reach is not a missing
+             // anvil, and conflating them sends callers hunting the wrong bug.
+@@ -3943,7 +3945,18 @@ export class BotActions {
+             );
+             
+         } catch {
+-            return { success: false, message: 'Smithing interface did not open', reason: 'interface_not_opened' };
++            // Keep the observed modal in the failure: a different open
++            // interface points to stale/wrong interface detection, while a
++            // closed modal points back to the item-on-anvil interaction.
++            const observed = this.sdk.getState()?.interface;
++            const observedState = observed
++                ? `observed interface ${observed.isOpen ? 'open' : 'closed'} (id ${observed.interfaceId})`
++                : 'interface state unavailable';
++            return {
++                success: false,
++                message: `Smithing interface did not open; ${observedState}`,
++                reason: 'interface_not_opened'
++            };
+         }
+ 
+         // Click the smithing component (uses INV_BUTTON)
+diff --git a/sdk/test/door-retry.test.ts b/sdk/test/door-retry.test.ts
+new file mode 100644
+index 0000000..4e027fe
+--- /dev/null
++++ b/sdk/test/door-retry.test.ts
+@@ -0,0 +1,34 @@
++import { describe, expect, mock, test } from 'bun:test';
++import { ActionHelpers } from '../actions-helpers';
++import type { BotSDK } from '..';
++
++describe('door recovery after repositioning', () => {
++    test('opens a door when moving adjacent still leaves the target unreachable', async () => {
++        const helpers = new ActionHelpers({ waitForTicks: async () => {} } as unknown as BotSDK);
++        let doorOpen = false;
++        helpers.walkAdjacentTo = mock(async () => true);
++        helpers.tryOpenBlockingDoor = mock(async () => { doorOpen = true; return true; });
++        const action = mock(async () => doorOpen
++            ? { success: true, reason: undefined }
++            : { success: false, reason: 'cant_reach' });
++
++        const result = await helpers.withDoorRetry(action, r => r.reason === 'cant_reach', 2, { x: 2999, z: 3144 });
++
++        expect(result.success).toBe(true);
++        expect(action).toHaveBeenCalledTimes(3);
++        expect(helpers.walkAdjacentTo).toHaveBeenCalledTimes(1);
++        expect(helpers.tryOpenBlockingDoor).toHaveBeenCalledTimes(1);
++    });
++
++    test('stops within the retry bound when neither recovery works', async () => {
++        const helpers = new ActionHelpers({ waitForTicks: async () => {} } as unknown as BotSDK);
++        helpers.walkAdjacentTo = mock(async () => true);
++        helpers.tryOpenBlockingDoor = mock(async () => true);
++        const action = mock(async () => ({ success: false, reason: 'cant_reach' }));
++
++        const result = await helpers.withDoorRetry(action, () => true, 2, { x: 2999, z: 3144 });
++
++        expect(result.success).toBe(false);
++        expect(action).toHaveBeenCalledTimes(3);
++    });
++});

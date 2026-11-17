@@ -1,0 +1,17 @@
+# Bootstrap only first-party source/configuration; never turn runtime data into specs.
+.git/
+.claude/
+.agents/
+third_party/
+rs-sdk/
+data/
+docs/
+agents/node_modules/
+agents/runs/
+agents/state/
+agents/public/
+agents/portraits/.build/
+agents/accounts.json
+agents/models.json
+.env
+agents/reviews/
