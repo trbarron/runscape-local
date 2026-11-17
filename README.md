@@ -1,5 +1,9 @@
 # Runescape Rascals
 
+> **Archived.** The party ran from October to November 2026 and is no longer
+> operated or maintained. The code is kept as a record of the experiment; it is
+> not updated against newer RS-SDK releases and issues will not be addressed.
+
 An experiment in getting four AI characters to live, learn and work together in a
 persistent RuneScape world. Bram, Wren, Mike and Trish gather resources, make
 equipment, explore and negotiate shared goals through a self-hosted
@@ -11,7 +15,8 @@ the more interesting questions are whether the characters coordinate dependencie
 share useful knowledge, revise stale beliefs and recover when a plan stops working.
 
 [View the party dashboard](https://tylerbarron.com/runescape-rascals) to explore
-character activity, conversations and shared mission progress.
+character activity, conversations and shared mission progress as of the party's
+final session on 10 November 2026.
 
 ## How it works
 
@@ -47,6 +52,9 @@ below describe implemented behavior and known limits, rather than claiming
 unattended autonomy or current deployment health.
 
 ## Explore or run it
+
+The instructions below describe how the system was run. They are kept for
+reference and have not been verified since the project was archived.
 
 - [Local setup](docs/setup.md): dependencies, game server and optional private access.
 - [Party guide](agents/README.md): startup, configuration, code layout and validation.
