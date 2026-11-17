@@ -10,6 +10,9 @@ intervention over time. Level gains and full banks are useful observations, but
 the more interesting questions are whether the characters coordinate dependencies,
 share useful knowledge, revise stale beliefs and recover when a plan stops working.
 
+[View the party dashboard](https://tylerbarron.com/runescape-rascals) to explore
+character activity, conversations and shared mission progress.
+
 ## How it works
 
 Each character has a persistent identity, memory and view of the world. A language
